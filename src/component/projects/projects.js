@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import './Portfolio.scss'
+import './projects.scss'
 
 class PagePortfolio extends Component{
 

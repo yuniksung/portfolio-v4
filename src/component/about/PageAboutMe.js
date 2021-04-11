@@ -6,7 +6,11 @@ class PageAboutMe extends Component{
     render() {
 
         return(
-            <div>
+            <div className="about-container">
+
+                <div className="about-border">
+                    
+                </div>
                 
             </div>
         )

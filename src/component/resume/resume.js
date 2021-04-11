@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import './header.scss'
+import './resume.scss'
 
-class PageHeader extends Component{
+class PagePortfolio extends Component{
 
     render() {
 
@@ -13,4 +13,4 @@ class PageHeader extends Component{
     }
 }
 
-export default PageHeader;
+export default PagePortfolio;
