@@ -13,11 +13,11 @@ class Hero extends Component{
                 <div className="hero-box">
                     <div className="hero-title">
                         <span className="block"></span>
-                        <h1>Yunik Sung</h1>
+                        <h1>Thank You</h1>
                     </div>
 
                     <div className="hero-role">
-                        <p>Web Developer</p>
+                        <p>For Visiting</p>
                     </div>
                 </div>
             </div>

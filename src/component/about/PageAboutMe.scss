@@ -5,15 +5,83 @@
 @import '../../assets/Styles/mixin-variables.scss';
 
 .about-container{
-    width: 100vw;
+    width: 99vw;
     height: 100vh;
-    padding: 10vh;
-
+    padding: 10vh 20vh;
+    margin: 5vh 0;
+    h1{
+        @include sectionTitle;
+    }
     .about-border{
-        width: 100%;
-        height: 100%;
-        padding: 10vh;
-        background-color: $dark-background;
+        @include sectionBox;
         @include sectionShadow;
+        display: flex;
+        flex-wrap: wrap;
+        
+
+        .about-me{
+            width: 55%;
+            padding-top: 5vh;
+            margin: 0 auto 0 0;
+
+            h2{
+
+                span{
+                    font-size: 20px;
+                    padding-left: 1vh;
+                    color: rgb(37, 37, 37)
+                }
+            }
+
+            p{
+                padding-top: 2vh;
+                font-size: 20px;
+                color: $lighter-textColor;
+                letter-spacing: 1px;
+
+                span{
+                    font-size: 20px;
+                    padding-left: 1vh;
+                    color: $textColor;
+                    font-weight: 600;
+                }
+            }
+        }
+
+        .mypic{
+            width: 35%;
+            margin: 0 0 0 auto;
+            margin-top: 5vh;
+            overflow: hidden;
+            background-image: url(../../assets/images/me.jpg);
+            background-size: cover;
+            clip-path: ellipse(300px 300px at 20% 20%);
+            opacity: 0.4;
+            transition: ease 0.35s;
+            &:hover{
+                opacity: 0.8;
+            }
+
+        }
+
+        .skillset-wrapper{
+            width: 45%;
+            padding-top: 5vh;
+
+            ul{
+                flex-wrap: wrap;
+                display: flex;
+                width: 80%;
+
+                li{
+                    margin-top: 2vh;
+                    @include listStyle;
+                    color: $textColor;
+                    font-size: 18px;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                }
+            }
+        }
     }
 }
