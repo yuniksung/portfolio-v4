@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap");
+.about-container {
+  width: 99vw;
+  height: 100vh;
+  padding: 10vh 20vh;
+  margin: 5vh 0;
+}
+
+.about-container h1 {
+  font-size: 42px;
+  text-transform: uppercase;
+  color: #4c5839;
+}
+
+.about-container .about-border {
+  width: 100%;
+  height: 100%;
+  padding: 5vh 10vh;
+  background-color: #718355;
+  box-shadow: 0px 0px 20px rgba(248, 248, 248, 0.2);
+  animation-delay: 3s;
+  transition: 0.4s;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-container .about-border:hover {
+  box-shadow: 0px 0px 20px rgba(248, 248, 248, 0.8);
+}
+
+.about-container .about-border .about-me {
+  width: 55%;
+  padding-top: 5vh;
+  margin: 0 auto 0 0;
+}
+
+.about-container .about-border .about-me h2 span {
+  font-size: 20px;
+  padding-left: 1vh;
+  color: #252525;
+}
+
+.about-container .about-border .about-me p {
+  padding-top: 2vh;
+  font-size: 20px;
+  color: #e9f5db;
+  letter-spacing: 1px;
+}
+
+.about-container .about-border .about-me p span {
+  font-size: 20px;
+  padding-left: 1vh;
+  color: #cfe1b9;
+  font-weight: 600;
+}
+
+.about-container .about-border .mypic {
+  width: 35%;
+  margin: 0 0 0 auto;
+  margin-top: 5vh;
+  overflow: hidden;
+  background-image: url(../../assets/images/me.jpg);
+  background-size: cover;
+  clip-path: ellipse(300px 300px at 20% 20%);
+  opacity: 0.4;
+  transition: ease 0.35s;
+}
+
+.about-container .about-border .mypic:hover {
+  opacity: 0.8;
+}
+
+.about-container .about-border .skillset-wrapper {
+  width: 45%;
+  padding-top: 5vh;
+}
+
+.about-container .about-border .skillset-wrapper ul {
+  flex-wrap: wrap;
+  display: flex;
+  width: 80%;
+}
+
+.about-container .about-border .skillset-wrapper ul li {
+  margin-top: 2vh;
+  list-style: none;
+  padding: 5px 20px;
+  color: #cfe1b9;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=PageAboutMe.css.map */

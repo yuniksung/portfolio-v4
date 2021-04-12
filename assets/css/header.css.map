@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../src/component/MainPage-component/header.scss",
+        "../../src/assets/Styles/mediaQueries.scss",
+        "../../src/assets/Styles/mixin-variables.scss"
+    ],
+    "names": [],
+    "file": "header.css"
+}
