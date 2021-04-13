@@ -1,16 +1,15 @@
-import React, { Component } from "react";
+import React from "react";
 import './projects.scss'
 
-class PagePortfolio extends Component{
+function PagePortfolio(props) {
+    const { projects } = props;
+    
 
-    render() {
-
-        return(
-            <div>
-                
-            </div>
-        )
-    }
+    return(
+        <div className="projects-container">
+            
+        </div>
+    )
 }
 
 export default PagePortfolio;

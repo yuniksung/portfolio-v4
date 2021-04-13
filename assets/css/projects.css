@@ -1,3 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap");
+.projects-container {
+  height: 100vh;
+}
 /*# sourceMappingURL=projects.css.map */

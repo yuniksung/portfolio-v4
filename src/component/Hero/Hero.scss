@@ -75,7 +75,8 @@
         letter-spacing: 1px;
         text-align: justify;
         color: $textColor;
-        font-size: 24px;
+        font-size: 20px;
+        line-height: 150%
       }
       
 
@@ -86,6 +87,7 @@
     }
 
     ul{
+      width: 100%;
       display: flex;
       justify-content: flex-start;
 
@@ -93,7 +95,7 @@
             margin-top: 1vh;
             @include listStyle;
             color: $textColor;
-            font-size: 24px;
+            font-size: 20px;
             letter-spacing: 1px;
             text-transform: capitalize;
         }

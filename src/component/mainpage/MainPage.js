@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import './MainPage.scss'
 
 import Hero from '../Hero/Hero'
-import About from '../about/PageAboutMe'
+import Projects from '../projects/projects'
 
 // Components
 
@@ -11,7 +11,7 @@ class MainPage extends Component{
         return(
             <>
             <Hero />
-            <About />
+            <Projects />
             </>
         )
     }

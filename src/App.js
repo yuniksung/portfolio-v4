@@ -23,9 +23,8 @@ function App() {
   <Router>
     <AppNav>{navLinks}</AppNav>
     <div>
-      <Switch>
         <MainPage />
-      </Switch>
+        <AppStickyMenu />
     </div>
   </Router>
   );

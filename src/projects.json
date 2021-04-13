@@ -1,0 +1,58 @@
+[
+    {
+    "name": "Fit-Club",
+    "technologies": ["MERN stack", "SASS", "Socket.io"],
+    "description": "A Social Fitness Application to Connect Fitness Enthusiasts Due to COVID-19, the fitness community had to adapt to new ways to work out at home. Now with the growing virtual options, trainers need a means to find people who need help with their fitness goals and allow users to find people in their area that are hosting activities or classes to stay active..",
+    "repository":"https://github.com/maxhealy01/fit-club",
+    "link": "https://fit-clob.herokuapp.com/",
+    "screenshot": "project-fitclub.JPG"
+  },
+  {
+    "name": "Music Line",
+    "technologies": ["Node.js", "Express.js", "Sequelize", "Handlebars"],
+    "description": "E-Commerce site allowing for purchase and rental of music products",
+    "repository":"https://github.com/axeliono/Music-Line/",
+    "link": "https://guarded-dawn-15470.herokuapp.com/",
+    "screenshot": "project-musicline1.JPG"
+  },
+  {
+    "name": "Meal QUEUE",
+    "technologies": ["Node.js", "Express.js", "Sequelize", "Handlebars"],
+    "description": "Meal Queue is an aide to help individuals come up with dinner ideas. Type in a food item and a list of different recipes is presented with an option to view a video tutorial.",
+    "repository":"https://github.com/axeliono/Meal-Queue",
+    "link": "https://axeliono.github.io/Meal-Queue/",
+    "screenshot": "project-mealq.jpg"
+  },
+  {
+    "name": "Tech Blog",
+    "technologies": ["Node.js", "Express.js", "Sequelize", "Handlebars"],
+    "description": "A blog-style CMS. An application that is able to post, edit, delete, comment posts.",
+    "repository":"https://techblog-yunik.herokuapp.com/",
+    "link": "https://guarded-escarpment-07152.herokuapp.com/",
+    "screenshot": "project-TechBlog.jpg"
+  },
+  {
+    "name": "Weather Dashboard",
+    "technologies": ["HTML5", "SASS", "JavaScript"],
+    "description": "A weather app using the Open Weather api. This application allows users to search for cities to see the forecast. Previous cities are saved in local storage and displayed on the dashboard for quick reference.",
+    "repository":"https://github.com/yuniksung/weather-dashboard",
+    "link": "https://yuniksung.github.io/weather-dashboard/",
+    "screenshot": "project-weather.jpg"
+  },
+  {
+    "name": "Note Taker",
+    "technologies": ["Node.js", "Inquirer.js", "HTML5", "foundation.css"],
+    "description": "A command line interface application that will take input about your team members and generate a styled home page with cards showing information about each of your team members.",
+    "repository":"https://github.com/yuniksung/note_taker",
+    "link": "https://yuniknotetakr.herokuapp.com/",
+    "screenshot": "project-notetaker.jpg"
+  },
+  {
+    "name": "Social Meadia Backend",
+    "technologies": ["React.js", "SASS"],
+    "description": "This portfolio is a first React Multi Page Appliation.",
+    "repository":"https://github.com/yuniksung/react-portfolio",
+    "link": " https://yuniksung.github.io/react-portfolio/",
+    "screenshot": "project-reacthome.jpg"
+  }
+]

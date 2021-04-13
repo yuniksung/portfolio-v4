@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AEeA,OAAO,CAAC,yFAAI;AACZ,OAAO,CAAC,yFAAI",
+    "mappings": "AEcA,OAAO,CAAC,yFAAI;AACZ,OAAO,CAAC,yFAAI;AFTZ,AAAA,mBAAmB,CAAA;EACf,MAAM,EAAE,KAAK;CAChB",
     "sources": [
         "../../src/component/projects/projects.scss",
         "../../src/assets/Styles/mediaQueries.scss",
