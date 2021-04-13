@@ -13,10 +13,12 @@
         @include sectionTitle;
     }
     .about-border{
-        @include sectionBox;
+        // @include sectionBox;
         @include sectionShadow;
         display: flex;
         flex-wrap: wrap;
+        border: 1px solid $darker-textColor;
+        padding: 20px;
         
 
         .about-me{
@@ -25,19 +27,21 @@
             margin: 0 auto 0 0;
 
             h2{
+                color: $darker-textColor;
 
                 span{
                     font-size: 20px;
                     padding-left: 1vh;
-                    color: rgb(37, 37, 37)
+                    color: $darkest-textColor;
                 }
             }
 
             p{
                 padding-top: 2vh;
                 font-size: 20px;
-                color: $lighter-textColor;
+                color: $textColor;
                 letter-spacing: 1px;
+                
 
                 span{
                     font-size: 20px;
@@ -48,30 +52,68 @@
             }
         }
 
-        .mypic{
-            width: 35%;
-            margin: 0 0 0 auto;
-            margin-top: 5vh;
-            overflow: hidden;
-            background-image: url(../../assets/images/me.jpg);
-            background-size: cover;
-            clip-path: ellipse(300px 300px at 20% 20%);
-            opacity: 0.4;
-            transition: ease 0.35s;
-            &:hover{
-                opacity: 0.8;
+        .single-box{
+            flex-direction: column;
+            width: 370px;
+            height: 500px;
+            background-color: $default-background;
+            align-self: center;
+            box-shadow: 0 10px 10px rgba(0, 0, 0, .3);
+            cursor: pointer;
+            border-radius: 10px;
+        
+            .header-area{
+                background-image: url('../../assets/images/me.jpg');
+                border-radius: 10px 10px 50% 0;
+                padding: 120px 30px;
+                -webkit-background-size: cover;
+                background-size: cover;
+                background-position: center center;
+                box-shadow: 0 3px 8px rgba(0, 0, 0, .3);
             }
-
+        
+            
+        .body-area{
+            padding: 20px 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            h3{
+                margin: 0;
+                font-size: 25px;
+                letter-spacing: 3px;
+            }
+        
+            h4{
+                color: crimson;
+                font-size: 18px;
+                margin: 15px 0;
+                text-transform: uppercase;
+            }
+        
+            span{
+                color: crimson;
+            }
+        
+            .pro-text{
+                text-align: justify;
+            }
+        }
+        
         }
 
         .skillset-wrapper{
-            width: 45%;
+            width: 100%;
             padding-top: 5vh;
+
+            h2{
+                color: $textColor;
+            }
 
             ul{
                 flex-wrap: wrap;
                 display: flex;
-                width: 80%;
 
                 li{
                     margin-top: 2vh;

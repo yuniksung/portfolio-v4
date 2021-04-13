@@ -1,8 +1,8 @@
-import './App.css';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 // Pages
-import CoverPage from "./pages/CoverPage/CoverPage";
-import MainPage from "./pages/MainPage/MainPage"
+import MainPage from "./component/mainpage/MainPage"
+
 
 // Components
 import AppStickyMenu from "./component/App-component/AppStickyMenu";
@@ -12,14 +12,22 @@ import AppFooter from "./component/App-component/AppFooter";
 import "./App.scss";
 
 function App() {
+
+  const pages = ["home", "Classes", "Workout", "Profile"];
+
+  const navLinks = pages.map((page) => {
+    return <a href={"/" + page}>{page}</a>;
+  });
+
   return (
-    <div className="App">
-        <CoverPage />
-        <AppStickyMenu />
-        <AppNav />
-        <AppFooter />
+  <Router>
+    <AppNav>{navLinks}</AppNav>
+    <div>
+      <Switch>
         <MainPage />
+      </Switch>
     </div>
+  </Router>
   );
 }
 

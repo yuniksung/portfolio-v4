@@ -1,13 +1,12 @@
 // Color variables
 // https://coolors.co/e9f5db-cfe1b9-b5c99a-97a97c-87986a-718355
-$default-background: rgb(3, 83, 164);
-$dark-background: rgb(2, 62, 125);
+// https://coolors.co/cad2c5-84a98c-52796f-354f52-2f3e46
+$default-background: #354f52;
+$dark-background: #253438;
 
-$lighter-textColor: rgb(160, 166, 180);
-$lighter-textColor-half: rgba(233, 245, 219, 0.5);
-$textColor: rgb(151, 157, 172);
-$darker-textColor: rgb(125, 133, 151);
-$darkest-textColor: rgb(255, 255, 255);
+$textColor: #cad2c5;
+$darker-textColor: #84a98c;
+$darkest-textColor: #6e8d74;
 
 $section-shadow: 0px 0px 50px rgba(0, 0, 0, 0.3);
 
@@ -33,6 +32,11 @@ $default-font: 'Open Sans Condensed', sans-serif;
 
 // All <li> styles
 @mixin listStyle{
+    list-style: none;
+    padding: 5px 10px;
+}
+
+@mixin listStyle2{
     list-style: none;
     padding: 5px 20px;
 }
@@ -65,4 +69,9 @@ $default-font: 'Open Sans Condensed', sans-serif;
     height: 100%;
     padding: 5vh 10vh;
     background-color: $dark-background;
+}
+
+// effect transition
+@mixin ease-out{
+    transition: ease-out 0.5s;
 }

@@ -10,19 +10,17 @@
 .about-container h1 {
   font-size: 42px;
   text-transform: uppercase;
-  color: #4c5839;
+  color: #6e8d74;
 }
 
 .about-container .about-border {
-  width: 100%;
-  height: 100%;
-  padding: 5vh 10vh;
-  background-color: #718355;
-  box-shadow: 0px 0px 20px rgba(248, 248, 248, 0.2);
+  box-shadow: 0px 0px 20px rgba(248, 248, 248, 0);
   animation-delay: 3s;
   transition: 0.4s;
   display: flex;
   flex-wrap: wrap;
+  border: 1px solid #84a98c;
+  padding: 20px;
 }
 
 .about-container .about-border:hover {
@@ -35,58 +33,98 @@
   margin: 0 auto 0 0;
 }
 
+.about-container .about-border .about-me h2 {
+  color: #84a98c;
+}
+
 .about-container .about-border .about-me h2 span {
   font-size: 20px;
   padding-left: 1vh;
-  color: #252525;
+  color: #6e8d74;
 }
 
 .about-container .about-border .about-me p {
   padding-top: 2vh;
   font-size: 20px;
-  color: #e9f5db;
+  color: #cad2c5;
   letter-spacing: 1px;
 }
 
 .about-container .about-border .about-me p span {
   font-size: 20px;
   padding-left: 1vh;
-  color: #cfe1b9;
+  color: #cad2c5;
   font-weight: 600;
 }
 
-.about-container .about-border .mypic {
-  width: 35%;
-  margin: 0 0 0 auto;
-  margin-top: 5vh;
-  overflow: hidden;
-  background-image: url(../../assets/images/me.jpg);
-  background-size: cover;
-  clip-path: ellipse(300px 300px at 20% 20%);
-  opacity: 0.4;
-  transition: ease 0.35s;
+.about-container .about-border .single-box {
+  flex-direction: column;
+  width: 370px;
+  height: 500px;
+  background-color: #354f52;
+  align-self: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  border-radius: 10px;
 }
 
-.about-container .about-border .mypic:hover {
-  opacity: 0.8;
+.about-container .about-border .single-box .header-area {
+  background-image: url("../../assets/images/me.jpg");
+  border-radius: 10px 10px 50% 0;
+  padding: 120px 30px;
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+.about-container .about-border .single-box .body-area {
+  padding: 20px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-container .about-border .single-box .body-area h3 {
+  margin: 0;
+  font-size: 25px;
+  letter-spacing: 3px;
+}
+
+.about-container .about-border .single-box .body-area h4 {
+  color: crimson;
+  font-size: 18px;
+  margin: 15px 0;
+  text-transform: uppercase;
+}
+
+.about-container .about-border .single-box .body-area span {
+  color: crimson;
+}
+
+.about-container .about-border .single-box .body-area .pro-text {
+  text-align: justify;
 }
 
 .about-container .about-border .skillset-wrapper {
-  width: 45%;
+  width: 100%;
   padding-top: 5vh;
+}
+
+.about-container .about-border .skillset-wrapper h2 {
+  color: #cad2c5;
 }
 
 .about-container .about-border .skillset-wrapper ul {
   flex-wrap: wrap;
   display: flex;
-  width: 80%;
 }
 
 .about-container .about-border .skillset-wrapper ul li {
   margin-top: 2vh;
   list-style: none;
-  padding: 5px 20px;
-  color: #cfe1b9;
+  padding: 5px 10px;
+  color: #cad2c5;
   font-size: 18px;
   letter-spacing: 2px;
   text-transform: uppercase;

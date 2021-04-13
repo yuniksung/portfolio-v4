@@ -13,209 +13,95 @@
   background: $default-background;
   @include flexCen;
 
-  .hero-box {
-    width: 500px;
-    height: 250px;
-    position: relative;
+  .hero-wrapper{
+    width: 80%;
+    margin: auto;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-evenly;
+  }
 
-    .hero-title {
-      width: 100%;
-      position: relative;
+  .single-box{
+    width: 80%;
+    height: 500px;
+    background-color: $default-background;
+    align-self: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    display: flex;
+    @include ease-out;
+
+    &:hover{
+      box-shadow: 0 3px 8px rgba(0, 0, 0, .1);
+    }
+
+    .header-area{
+        width: 40%;
+        height: 100%;
+        background-image: url('../../assets/images/me1.jpg');
+        border-radius: 10px 10px 50% 0;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center center;
+        box-shadow: 0 3px 8px rgba(0, 0, 0, .3);
+
+
+    }
+
+    .body-area{
+      margin: auto;
+      width: 40%;
+      padding: 20px 30px;
       display: flex;
+      justify-content: center;
       align-items: center;
-      height: 50px;
-      margin-bottom: 0.5em;
+      flex-direction: column;
 
-
-      .-block {
-        width: 0%;
-        height: inherit;
-        background: #ffb510;
-        position: absolute;
-        animation: mainBlock 2s cubic-bezier(.74, .06, .4, .92) forwards;
-        display: flex;
+      h3{
+          margin: 0;
+          font-size: 35px;
+          letter-spacing: 3px;
+          color: $darker-textColor;
       }
 
-      h1 {
-        font-family: 'Poppins';
+      h4{
+          color: $darkest-textColor;
+          font-size: 18px;
+          margin: 15px 0;
+          text-transform: uppercase;
+      }
+
+      .pro-text{
+        padding: 10px;
+        letter-spacing: 1px;
+        text-align: justify;
         color: $textColor;
-        font-size: 82px;
-        -webkit-animation: mainFadeIn 2s forwards;
-        -o-animation: mainFadeIn 2s forwards;
-        animation: mainFadeIn 2s forwards;
-        animation-delay: 1.6s;
-        opacity: 0;
-        display: flex;
-        align-items: baseline;
-        position: relative;
-
-        span {
-          width:0px;
-          height: 0px;
-          -webkit-border-radius: 50%;
-          -moz-border-radius: 50%;
-          border-radius: 50%;
-
-          background: $darker-textColor;
-          -webkit-animation: load 0.6s cubic-bezier(.74, .06, .4, .92) forwards;
-          animation: popIn 0.8s cubic-bezier(.74, .06, .4, .92) forwards;
-          animation-delay: 2s;
-          margin-left: 5px;
-          margin-top: -10px;
-          position: absolute;
-          bottom: 13px;
-          right: -12px;
-
-        }
+        font-size: 24px;
       }
+      
+
+      h5{
+        padding: 10px 0;
+        color: $darker-textColor;
+        font-size: 26px;
     }
 
-    .hero-role {
-      width: 100%;
-      position: relative;
+    ul{
       display: flex;
-      align-items: center;
-      height: 30px;
-      margin-top: 5px;
-      margin-bottom: 1em;
+      justify-content: flex-start;
 
-      p {
-        animation: secFadeIn 2s forwards;
-        animation-delay: 3.2s;
-        opacity: 0;
-        font-weight: 600;
-        color: $lighter-textColor;
-        font-size: 32px;
-        text-transform: uppercase;
-        letter-spacing: 5px;
-        padding-left: 5px;
-      }
-    }
-
-    .home-enter{
-        width: 100%;
-        position: relative;
-        display: flex;
-        align-items: center;
-        height: 30px;
-        padding-left: 5px;
-
-        a{
-            text-decoration: none;
+        li{
+            margin-top: 1vh;
+            @include listStyle;
             color: $textColor;
-            opacity: 0;
-            font-size: 28px;
-            animation: secFadeIn 2s forwards;
-            animation-delay: 4.2s;
+            font-size: 24px;
+            letter-spacing: 1px;
+            text-transform: capitalize;
         }
     }
-  }
+    }
+
+    
+
+}
 }
 
-
-
-
-
-@keyframes mainBlock {
-  0% {
-    width: 0%;
-    left: 0;
-
-  }
-  50% {
-    width: 100%;
-    left: 0;
-
-  }
-  100% {
-    width: 0;
-    left: 100%;
-  }
-}
-
-@keyframes mainFadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-
-@keyframes popIn {
-  0% {
-    width: 0px;
-    height: 0px;
-    background: $darker-textColor;
-    border: 0px solid #ddd;
-    opacity: 0;
-  }
-  50% {
-    width: 10px;
-    height: 10px;
-    background: $darker-textColor;
-    opacity: 1;
-    bottom: 45px;
-  }
-   65% {
-      width: 7px;
-    height: 7px;
-      bottom: 0px;
-      width: 15px
-   }
-   80% {
-      width: 10px;
-    height: 10px;
-      bottom: 20px
-   }
-  100% {
-    width: 7px;
-    height: 7px;
-    background: $darker-textColor;
-    border: 0px solid #222;
-    bottom: 13px;
-
-  }
-}
-
-@keyframes secFadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0.5;
-  }
-}
-
-
-
-@keyframes top {
-  0% {
-    opacity: 0;
-     bottom: -80px
-  }
-  100% {
-    opacity: 1;
-     bottom: 0px
-
-  }
-}
-
-@keyframes icon {
-  0% {
-    opacity: 0;
-     transform: scale(0.0);
-  }
-   50% {
-      opacity: 1;
-     transform: scale(1.3) rotate(-02deg);
-   }
-  100% {
-    opacity: 1;
-     bottom: 0px;
-  }
-}

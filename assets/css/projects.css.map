@@ -2,10 +2,10 @@
     "version": 3,
     "mappings": "AEeA,OAAO,CAAC,yFAAI;AACZ,OAAO,CAAC,yFAAI",
     "sources": [
-        "../../src/component/App-component/AppFooter.scss",
+        "../../src/component/projects/projects.scss",
         "../../src/assets/Styles/mediaQueries.scss",
         "../../src/assets/Styles/mixin-variables.scss"
     ],
     "names": [],
-    "file": "AppFooter.css"
+    "file": "projects.css"
 }
