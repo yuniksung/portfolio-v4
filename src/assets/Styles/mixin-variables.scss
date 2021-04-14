@@ -1,6 +1,7 @@
 // Color variables
 // https://coolors.co/e9f5db-cfe1b9-b5c99a-97a97c-87986a-718355
 // https://coolors.co/cad2c5-84a98c-52796f-354f52-2f3e46
+$light-background: #446461;
 $default-background: #354f52;
 $dark-background: #253438;
 
@@ -48,12 +49,11 @@ $default-font: 'Open Sans Condensed', sans-serif;
 }
 
 @mixin sectionShadow{
-    box-shadow: 0px 0px 20px rgba(248, 248, 248, 0);
-    animation-delay: 3s;
-    transition: 0.4s;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .3);
+    @include ease-out;
 
     &:hover{
-        box-shadow: 0px 0px 20px rgba(248, 248, 248, 0.8);
+        box-shadow: 0 3px 8px rgba(0, 0, 0, .1);
         
     }
 }
@@ -74,4 +74,14 @@ $default-font: 'Open Sans Condensed', sans-serif;
 // effect transition
 @mixin ease-out{
     transition: ease-out 0.5s;
+}
+
+// Section title
+@mixin sectionTitle{
+    text-align: center;
+    padding: 2em;
+    text-transform: uppercase;
+    font-size: 45px;
+    color: $textColor;
+    letter-spacing: 5px;
 }

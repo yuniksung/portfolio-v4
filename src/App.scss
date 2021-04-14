@@ -1,17 +1,24 @@
 // Variables and Mixins
 @import './assets/Styles/mixin-variables.scss';
 
+html {
+    --scrollbarBG: #004563;
+    --thumbBG: #001f2e;
+  }
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-style: 'Open Sans Condensed', sans-serif;
     scroll-behavior: smooth;
+    
 }
 
 body{
     background-color: $default-background;
 }
+
 
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400|Poppins:300,400,800&display=swap');
 

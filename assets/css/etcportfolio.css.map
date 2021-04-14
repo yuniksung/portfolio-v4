@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AEeA,OAAO,CAAC,yFAAI;AACZ,OAAO,CAAC,yFAAI",
+    "mappings": "AEcA,OAAO,CAAC,yFAAI;AACZ,OAAO,CAAC,yFAAI",
     "sources": [
         "../../src/component/projects/etcportfolio.scss",
         "../../src/assets/Styles/mediaQueries.scss",

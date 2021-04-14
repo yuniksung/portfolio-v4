@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AEeA,OAAO,CAAC,yFAAI;AACZ,OAAO,CAAC,yFAAI",
+    "mappings": "AEeA,OAAO,CAAC,yFAAI;AACZ,OAAO,CAAC,yFAAI;AFTZ,AAAA,GAAG,CAAA;EEyEC,UAAU,EAAE,MAAM;EAClB,OAAO,EAAE,GAAG;EACZ,cAAc,EAAE,SAAS;EACzB,SAAS,EAAE,IAAI;EACf,KAAK,EA7EG,OAAO;EA8Ef,cAAc,EAAE,GAAG;CF5EtB",
     "sources": [
         "../../src/component/mainpage/MainPage.scss",
         "../../src/assets/Styles/mediaQueries.scss",

@@ -11,6 +11,7 @@ class MainPage extends Component{
         return(
             <>
             <Hero />
+            <h1 className="h1">Projects</h1>
             <Projects />
             </>
         )
