@@ -34,6 +34,11 @@
                     color: $section-text;
                     font-size: 24px;
                     text-decoration: none;
+                    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+                    
+                &:hover{
+                    color: #a88900;
+                }
                 }
             }
         }

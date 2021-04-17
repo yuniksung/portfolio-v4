@@ -63,6 +63,12 @@
                 font-size: 20px;
                 color: $anchor-text;
                 padding: 0 20px;
+                transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+
+                
+                &:hover{
+                    color: #806800;
+                }
             }
         }
     }
@@ -78,7 +84,13 @@
 
             a{
                 padding: 0 10px;
-                color: $anchor-text;
+                color: rgb(215, 255, 40);
+                text-decoration: none;
+                transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+
+                &:hover{
+                    color: #806800;
+                }
             }
         }
     }

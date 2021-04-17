@@ -22,9 +22,10 @@
             .icon{
                 font-size: 22px;
                 @include anchorStyle;
+                transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
                 
                 &:hover{
-                    color: $darker-textColor;
+                    color: #806800;
                 }
             }
         }
