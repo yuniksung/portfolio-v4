@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap");
 .navbar.active {
-  background-color: #253438;
+  background-color: #112240;
   height: 70px;
   transition: ease-in 0.3s;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.575);
@@ -34,8 +34,8 @@
 }
 
 .navbar .nav-wrapper ul li a {
-  text-decoration: none;
-  color: #cad2c5;
+  color: #5BE8C9;
   font-size: 24px;
+  text-decoration: none;
 }
 /*# sourceMappingURL=AppNav.css.map */

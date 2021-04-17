@@ -1,16 +1,48 @@
-import React, { Component } from "react";
-import './etcPortfolio.scss'
+import React from "react";
+import './Etcportfolio.scss'
+import etcProjects from '../../etcprojects.json'
+import ViewMoreBtn from './ViewMore'
 
-class PageEtcPortfolio extends Component{
+function PageEtcPortfolio() {
 
-    render() {
+   
+    return(
 
-        return(
-            <div>
+        <div className="etc-container">
+            {etcProjects.map((projectDetail, index)=>{
+
+                return  <div className="etc-row">
+                            <div className="row-header">
+                                <p>
+                                    {projectDetail.name}
+                                </p>
+                            </div>
+                            <div className="row-body">
+                                <p>
+                                    {projectDetail.description}
+                                </p>
+                                <h5>
+                                    {projectDetail.technologies}
+                                </h5>
+                            </div>
+                            <div className="row-ftr">
+                                <a href={projectDetail.repository} target="_blank" rel="noreferrer">
+                                    <i className="fab fa-github"></i>
+                                </a>
+                                <a href={projectDetail.link} target="_blank" rel="noreferrer">
+                                    <i className="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
                 
-            </div>
-        )
-    }
+                
+                
+        
+            })}
+            <ViewMoreBtn />
+        </div>
+    )
 }
+
 
 export default PageEtcPortfolio;

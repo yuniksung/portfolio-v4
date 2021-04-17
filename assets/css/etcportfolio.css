@@ -1,3 +1,81 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap");
-/*# sourceMappingURL=etcportfolio.css.map */
+.etc-container {
+  height: 100vh;
+  width: 70%;
+  margin: 2em auto;
+}
+
+.etc-container .etc-row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.etc-container .etc-row:hover {
+  background-color: #112240;
+}
+
+.etc-container .etc-row .row-header {
+  width: 15%;
+  height: 30%;
+  padding: 10px 20px;
+}
+
+.etc-container .etc-row .row-header p {
+  text-transform: uppercase;
+  font-size: 25px;
+  color: #5BE8C9;
+}
+
+.etc-container .etc-row .row-body {
+  width: 70%;
+  padding: 10px 20px;
+}
+
+.etc-container .etc-row .row-body p {
+  letter-spacing: 1px;
+  font-size: 20px;
+  text-align: left;
+  color: #cad2c5;
+  font-weight: 500;
+}
+
+.etc-container .etc-row .row-body h5 {
+  padding: 5px 0;
+  font-size: 16px;
+  text-align: left;
+  color: #cad2c5;
+  font-weight: 400;
+  word-spacing: 1em;
+  color: #cad2c5;
+}
+
+.etc-container .etc-row .row-ftr {
+  width: 10%;
+  display: flex;
+}
+
+.etc-container .etc-row .row-ftr a {
+  font-size: 20px;
+  color: #b7f3e6;
+  padding: 0 20px;
+}
+
+.etc-container .viewmore-btn {
+  width: 100%;
+  height: 30vh;
+  padding: 100px;
+}
+
+.etc-container .viewmore-btn h3 {
+  text-align: center;
+  color: #8ae2cf;
+}
+
+.etc-container .viewmore-btn h3 a {
+  padding: 0 10px;
+  color: #b7f3e6;
+}
+/*# sourceMappingURL=Etcportfolio.css.map */

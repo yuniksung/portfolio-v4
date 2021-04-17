@@ -10,17 +10,25 @@ class AppStickyMenu extends Component{
             <div className="sticky-container">
                 <ul>
                 <li>
-                    <a href="mailto:yuniksung@gmail.com" class="icon">
+                    <a href="mailto:yuniksung@gmail.com" 
+                    rel="noreferrer"
+                    className="icon">
                         <i class="fas fa-envelope"></i>
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="https://www.linkedin.com/in/yun-ik-sung-0a02a326/" className="icon">
+                    <a target="_blank" 
+                    href="https://www.linkedin.com/in/yun-ik-sung-0a02a326/" 
+                    rel="noreferrer"
+                    className="icon">
                         <i className="fab fa-linkedin-in"></i>
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="https://github.com/yuniksung" className="icon">
+                    <a target="_blank" 
+                    href="https://github.com/yuniksung" 
+                    rel="noreferrer"
+                    className="icon">
                         <i className="fab fa-github"></i>
                     </a>
                 </li>

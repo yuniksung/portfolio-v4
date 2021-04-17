@@ -1,22 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap");
 .projects-container {
-  height: 100vh;
+  height: 100%;
   width: 70%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  margin: auto;
+  margin: 2em auto;
 }
 
 .projects-container .project-box {
   padding: 10px 20px;
   width: 45%;
-  height: 40vh;
+  height: 30vh;
   display: flex;
   margin: 1em 2em;
-  background-color: transparent;
+  background-color: #112240;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
   transition: ease-out 0.5s;
 }
@@ -34,7 +34,7 @@
 .projects-container .project-box .project-text {
   width: 50%;
   height: 100%;
-  padding: 0 2em;
+  padding: 0 1em;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -46,25 +46,26 @@
 }
 
 .projects-container .project-box .project-text .p1 h1 {
-  color: #84a98c;
+  color: #5BE8C9;
   font-size: 25px;
-  text-align: center;
   margin: 5px 0;
+  font-weight: 400;
 }
 
 .projects-container .project-box .project-text .p1 p {
-  color: #6e8d74;
+  color: #cad2c5;
   font-size: 20px;
 }
 
 .projects-container .project-box .project-text .p2 {
-  height: 15%;
+  height: 22%;
 }
 
 .projects-container .project-box .project-text .p2 p {
-  color: #84a98c;
+  color: #cad2c5;
   font-size: 16px;
   word-spacing: 1em;
+  text-align: center;
 }
 
 .projects-container .project-box .project-text .p3 {
@@ -72,10 +73,11 @@
 }
 
 .projects-container .project-box .project-text .p3 a {
+  margin-top: 20px;
   text-decoration: none;
-  color: #cad2c5;
-  padding: 0 1em;
+  color: #b7f3e6;
+  padding: 1em;
   text-align: center;
-  font-size: 22px;
+  font-size: 18px;
 }
 /*# sourceMappingURL=projects.css.map */

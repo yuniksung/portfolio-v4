@@ -5,21 +5,22 @@
 @import '../../assets/Styles/mixin-variables.scss';
 
 .projects-container{
-    height: 100vh;
+    height: 100%;
     width: 70%;
     display: flex;
     flex-wrap:wrap;
     justify-content: space-between;
     align-items: center;
-    margin:auto;
+    margin: 2em auto;
+
 
     .project-box{
         padding: 10px 20px;
         width: 45%;
-        height: 40vh;
+        height: 30vh;
         display: flex;
         margin: 1em 2em;
-        background-color: transparent;
+        background-color: $dark-background;
         @include sectionShadow;
 
         .project-pic{
@@ -31,7 +32,7 @@
         .project-text{
             width: 50%;
             height: 100%;
-            padding: 0 2em;
+            padding: 0 1em;
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
@@ -40,35 +41,37 @@
             .p1{
                 height: 70%;
                 h1{
-                    color: $darker-textColor;
+                    color: $section-text;
                     font-size: 25px;
-                    text-align: center;
                     margin: 5px 0;
+                    font-weight: 400;
                 }
     
                 p{
-                    color: $darkest-textColor;
+                    color: $paragraph-text;
                     font-size: 20px;
                 }
             }
             
 
             .p2{
-                height: 15%;
+                height: 22%;
                 p{
-                    color: $darker-textColor;
+                    color: $paragraph-text;
                     font-size: 16px;
                     word-spacing: 1em;
+                    text-align: center;
                 }
             }
             
             .p3{
                 height: 15%;
                 a{
+                    margin-top: 20px;
                     @include anchorStyle;
-                    padding: 0 1em;
+                    padding: 1em;
                     text-align: center;
-                    font-size: 22px;
+                    font-size: 18px;
                 }
             }
 

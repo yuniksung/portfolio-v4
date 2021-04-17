@@ -2,7 +2,7 @@ import React from "react";
 import './projects.scss'
 import ProjectData from '../../projects.json'
 
-function PagePortfolio() {
+function Projects() {
 
 
 
@@ -30,10 +30,10 @@ function PagePortfolio() {
                                     </p>
                                 </div>
                                 <div className="p3">
-                                    <a href={projectDetail.repository} target="_blank">
+                                    <a href={projectDetail.repository} target="_blank" rel="noreferrer">
                                         <i className="fab fa-github"></i>
                                     </a>
-                                    <a href={projectDetail.link} target="_blank">
+                                    <a href={projectDetail.link} target="_blank" rel="noreferrer">
                                         <i className="fas fa-external-link-alt"></i>
                                     </a>
                                 </div>
@@ -45,4 +45,4 @@ function PagePortfolio() {
     )
 }
 
-export default PagePortfolio;
+export default Projects;

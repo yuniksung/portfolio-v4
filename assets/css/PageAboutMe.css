@@ -8,15 +8,17 @@
 }
 
 .about-container h1 {
-  font-size: 42px;
+  text-align: center;
+  padding: 2em;
   text-transform: uppercase;
-  color: #6e8d74;
+  font-size: 45px;
+  color: #cad2c5;
+  letter-spacing: 5px;
 }
 
 .about-container .about-border {
-  box-shadow: 0px 0px 20px rgba(248, 248, 248, 0);
-  animation-delay: 3s;
-  transition: 0.4s;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+  transition: ease-out 0.5s;
   display: flex;
   flex-wrap: wrap;
   border: 1px solid #84a98c;
@@ -24,7 +26,7 @@
 }
 
 .about-container .about-border:hover {
-  box-shadow: 0px 0px 20px rgba(248, 248, 248, 0.8);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
 }
 
 .about-container .about-border .about-me {
@@ -61,7 +63,7 @@
   flex-direction: column;
   width: 370px;
   height: 500px;
-  background-color: #354f52;
+  background-color: #51797e;
   align-self: center;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
   cursor: pointer;

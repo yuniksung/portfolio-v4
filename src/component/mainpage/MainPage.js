@@ -3,6 +3,7 @@ import './MainPage.scss'
 
 import Hero from '../Hero/Hero'
 import Projects from '../projects/projects'
+import Etcportfolio from '../projects/Etcportfolio'
 
 // Components
 
@@ -13,6 +14,8 @@ class MainPage extends Component{
             <Hero />
             <h1 className="h1">Projects</h1>
             <Projects />
+            <h1 className="h1">Other Projects</h1>
+            <Etcportfolio />
             </>
         )
     }

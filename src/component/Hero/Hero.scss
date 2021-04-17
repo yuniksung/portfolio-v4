@@ -23,7 +23,7 @@
   .single-box{
     width: 80%;
     height: 500px;
-    background-color: $default-background;
+    background-color: $dark-background;
     align-self: center;
     box-shadow: 0 10px 10px rgba(0, 0, 0, .3);
     border-radius: 10px;
@@ -60,11 +60,11 @@
           margin: 0;
           font-size: 35px;
           letter-spacing: 3px;
-          color: $darker-textColor;
+          color: $title-text;
       }
 
       h4{
-          color: $darkest-textColor;
+          color: $title-text;
           font-size: 18px;
           margin: 15px 0;
           text-transform: uppercase;
@@ -82,7 +82,7 @@
 
       h5{
         padding: 10px 0;
-        color: $darker-textColor;
+        color: $title-text;
         font-size: 26px;
     }
 
@@ -94,7 +94,7 @@
         li{
             margin-top: 1vh;
             @include listStyle;
-            color: $textColor;
+            color: $paragraph-text;
             font-size: 20px;
             letter-spacing: 1px;
             text-transform: capitalize;

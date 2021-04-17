@@ -2,12 +2,17 @@
 // https://coolors.co/e9f5db-cfe1b9-b5c99a-97a97c-87986a-718355
 // https://coolors.co/cad2c5-84a98c-52796f-354f52-2f3e46
 $light-background: #446461;
-$default-background: #354f52;
-$dark-background: #253438;
+$default-background: #0A192F;
+$dark-background: #112240;
 
 $textColor: #cad2c5;
 $darker-textColor: #84a98c;
 $darkest-textColor: #6e8d74;
+
+$section-text: #5BE8C9;
+$title-text: #8ae2cf;
+$paragraph-text: #cad2c5;
+$anchor-text: #b7f3e6;
 
 $section-shadow: 0px 0px 50px rgba(0, 0, 0, 0.3);
 
@@ -45,7 +50,7 @@ $default-font: 'Open Sans Condensed', sans-serif;
 // All <a> styles
 @mixin anchorStyle{
     text-decoration: none;
-    color: $textColor;
+    color: $anchor-text;
 }
 
 @mixin sectionShadow{
