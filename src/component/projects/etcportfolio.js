@@ -1,5 +1,5 @@
 import React from "react";
-import './Etcportfolio.scss'
+import './etcportfolio.scss'
 import etcProjects from '../../etcprojects.json'
 import ViewMoreBtn from './ViewMore'
 

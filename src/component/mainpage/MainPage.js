@@ -3,7 +3,7 @@ import './MainPage.scss'
 
 import Hero from '../Hero/Hero'
 import Projects from '../projects/projects'
-import Etcportfolio from '../projects/Etcportfolio'
+import Etcportfolio from '../projects/etcportfolio'
 
 // Components
 
