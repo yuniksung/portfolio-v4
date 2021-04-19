@@ -5,7 +5,7 @@
     "description": "A Social Fitness Application to Connect Fitness Enthusiasts Due to COVID-19, the fitness community had to adapt to new ways to work out at home.",
     "repository":"https://github.com/maxhealy01/fit-club",
     "link": "https://fit-clob.herokuapp.com/",
-    "picture": "./assets/images/work/fitclub.jpg"
+    "picture": "images/fitclub.JPG"
   },
   {
     "name": "Music Line",
@@ -13,7 +13,7 @@
     "description": "E-Commerce site allowing for purchase and rental of music products",
     "repository":"https://github.com/axeliono/Music-Line/",
     "link": "https://guarded-dawn-15470.herokuapp.com/",
-    "picture": "./assets/images/work/musicline1.jpg"
+    "picture": "images/musicline.JPG"
   },
   {
     "name": "Meal Queue",
@@ -21,7 +21,7 @@
     "description": "Type in a food item and a list of different recipes is presented with an option to view a video tutorial.",
     "repository":"https://github.com/axeliono/Meal-Queue",
     "link": "https://axeliono.github.io/Meal-Queue/",
-    "picture": "./assets/images/work/musicline1.jpg"
+    "picture": "images/mealq.JPG"
   },
   {
     "name": "Portfolio V3",
@@ -29,6 +29,6 @@
     "description": "This portfolio is a first React Multi Page Appliation.",
     "repository":"https://github.com/yuniksung/react-portfolio",
     "link": " https://yuniksung.github.io/react-portfolio/",
-    "picture": "./assets/images/work/musicline1.jpg"
+    "picture": "images/Portfolio.JPG"
   }
 ]

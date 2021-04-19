@@ -9,31 +9,32 @@ function Projects() {
     return(
 
         <div className="projects-container">
-            {ProjectData.map((projectDetail, index)=>{
+            {ProjectData.map((data, index)=>{
 
 
                 return <div className="project-box">
                             
                             <div className="project-pic">
-                                <img source={projectDetail.picture}
-                                alt={projectDetail.name}/>
+                                <img src={data.picture}
+                                alt={data.name}
+                                key={data.name} />
                             </div>
                             <div className="project-text">
                                 <div className="p1">
-                                    <h1>{projectDetail.name}</h1>
-                                    <p>{projectDetail.description}</p>
+                                    <h1>{data.name}</h1>
+                                    <p>{data.description}</p>
                                 </div>
                             
                                 <div className="p2">
                                     <p>
-                                        {projectDetail.technologies}
+                                        {data.technologies}
                                     </p>
                                 </div>
                                 <div className="p3">
-                                    <a href={projectDetail.repository} target="_blank" rel="noreferrer">
+                                    <a href={data.repository} target="_blank" rel="noreferrer">
                                         <i className="fab fa-github"></i>
                                     </a>
-                                    <a href={projectDetail.link} target="_blank" rel="noreferrer">
+                                    <a href={data.link} target="_blank" rel="noreferrer">
                                         <i className="fas fa-external-link-alt"></i>
                                     </a>
                                 </div>
