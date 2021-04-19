@@ -22,6 +22,20 @@
     "link": " https://yuniknotetakr.herokuapp.com/"
   },
   {
+    "name": "Work Day Scheduler",
+    "technologies": "HTML, CSS, JavaScript, jQuery",
+    "description": " Create a simple work-day-scheduler calendar application that allows for user to enter tasks/events for that hour in the text area and save events for each hour of the day.",
+    "repository":"https://github.com/yuniksung/work-day-scheduler",
+    "link": " https://yuniksung.github.io/work-day-scheduler/"
+  },
+  {
+    "name": "Budget Tracker",
+    "technologies": "JavaScript, Node.js, Express.js, MongoDB",
+    "description": "This application allows the user to track their withdrawals and deposits on a computer or mobile device with or without an internet connection.",
+    "repository":"https://github.com/yuniksung/budget-tracker",
+    "link": " https://mighty-spire-18288.herokuapp.com/"
+  },
+  {
     "name": "Readme Generator",
     "technologies": "Node.js",
     "description": "It reates a README.md file by taking users inputs on each question he or she answers.",

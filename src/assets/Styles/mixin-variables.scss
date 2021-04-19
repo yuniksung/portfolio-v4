@@ -97,7 +97,9 @@ $default-font: 'Open Sans Condensed', sans-serif;
 
 // Section title
 @mixin sectionTitle{
-    text-align: center;
+    
+    width: 75%;
+    margin: 0 auto -1em;
     padding: 2em;
     text-transform: uppercase;
     font-size: 45px;
