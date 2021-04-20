@@ -1,16 +1,18 @@
 // Color variables
 // https://coolors.co/e9f5db-cfe1b9-b5c99a-97a97c-87986a-718355
 // https://coolors.co/cad2c5-84a98c-52796f-354f52-2f3e46
-$default-background: #0A192F;
-$dark-background: #112240;
+$default-background: #446461;
+$dark-background: #344d4a;
 
-$textColor: #cad2c5;
-$darker-textColor: #84a98c;
-$darkest-textColor: #6e8d74;
+$textColor: #ffffff;
+$darker-textColor: #dddddd;
+$darkest-textColor: #979797;
 
+$page-text: #cfb776;
 $section-text: #ffd000;
-$title-text: #d3b300;
-$paragraph-text: #fff09e;
+$title-text: #ac961b;
+$tech-text: #d8d8d8;
+$paragraph-text: #f1ecec;
 $anchor-text: #c09d00;
 
 // $light-background: #446461;
@@ -21,10 +23,7 @@ $anchor-text: #c09d00;
 // $darker-textColor: #84a98c;
 // $darkest-textColor: #6e8d74;
 
-// $section-text: #5BE8C9;
-// $title-text: #8ae2cf;
-// $paragraph-text: #cad2c5;
-// $anchor-text: #b7f3e6;
+
 
 
 $section-shadow: 0px 0px 50px rgba(0, 0, 0, 0.3);
@@ -34,6 +33,9 @@ $section-shadow: 0px 0px 50px rgba(0, 0, 0, 0.3);
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
 $default-font: 'Open Sans Condensed', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+$anchor-font: 'Roboto Mono', monospace;
 
 // display:flex all center mixin
 @mixin flexCen{
@@ -103,6 +105,6 @@ $default-font: 'Open Sans Condensed', sans-serif;
     padding: 2em;
     text-transform: uppercase;
     font-size: 45px;
-    color: $textColor;
+    color: $page-text;
     letter-spacing: 5px;
 }

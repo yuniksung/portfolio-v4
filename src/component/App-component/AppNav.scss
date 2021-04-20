@@ -5,10 +5,10 @@
 @import '../../assets/Styles/mixin-variables.scss';
 
 .navbar.active{
-    background-color: $dark-background;
+    background-color: $default-background;
     height: 70px;
     transition: ease-in 0.3s;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.575);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.35);
 }
 
 .navbar{
@@ -18,7 +18,7 @@
     padding: 10px;
     background-color: transparent;
     transition: ease-in 0.2s;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    // box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
 
     .nav-wrapper{
         width: 50%;

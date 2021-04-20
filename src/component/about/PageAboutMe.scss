@@ -4,126 +4,101 @@
 // Variables and Mixins
 @import '../../assets/Styles/mixin-variables.scss';
 
-.about-container{
-    width: 99vw;
-    height: 100vh;
-    padding: 10vh 20vh;
-    margin: 5vh 0;
-    h1{
-        @include sectionTitle;
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400|Poppins:300,400,800&display=swap');
+
+
+.aboutme-container {
+  width: 100%;
+  height: 100vh;
+  background: $default-background;
+  @include flexCen;
+
+  .hero-wrapper{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .single-box{
+    width: 80%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+
+
+    .header-area{
+        width: 30%;
+        height: 80%;
+        background-image: url('../../assets/images/me1.jpg');
+        background-size: cover;
+        background-position: center center;
+        border-radius: 5px;
+        justify-content: flex-end;
+        margin: 1em;
+
     }
-    .about-border{
-        // @include sectionBox;
-        @include sectionShadow;
-        display: flex;
-        flex-wrap: wrap;
-        border: 1px solid $darker-textColor;
-        padding: 20px;
-        
 
-        .about-me{
-            width: 55%;
-            padding-top: 5vh;
-            margin: 0 auto 0 0;
+    .body-area{
+      margin-right: auto;
+      width: 50%;
+      height: 80%;
+      padding: 20px 30px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
 
-            h2{
-                color: $darker-textColor;
+      h3{
+          margin: 0;
+          font-size: 65px;
+          letter-spacing: 3px;
+          color: $title-text;
+      }
 
-                span{
-                    font-size: 20px;
-                    padding-left: 1vh;
-                    color: $darkest-textColor;
-                }
-            }
+      h4{
+          color: $title-text;
+          font-size: 32px;
+          margin: 0;
+          text-transform: uppercase;
+      }
 
-            p{
-                padding-top: 2vh;
-                font-size: 20px;
-                color: $textColor;
-                letter-spacing: 1px;
-                
+      .pro-text{
+        padding: 10px;
+        letter-spacing: 1px;
+        text-align: justify;
+        color: $paragraph-text;
+        // color: rgb(226, 230, 209);
+        font-size: 18px;
+        line-height: 150%
+      }
+      
 
-                span{
-                    font-size: 20px;
-                    padding-left: 1vh;
-                    color: $textColor;
-                    font-weight: 600;
-                }
-            }
-        }
+      h5{
+        padding: 10px 0;
+        color: $title-text;
+        font-size: 32px;
+    }
 
-        .single-box{
-            flex-direction: column;
-            width: 370px;
-            height: 500px;
-            background-color: $default-background;
-            align-self: center;
-            box-shadow: 0 10px 10px rgba(0, 0, 0, .3);
-            cursor: pointer;
-            border-radius: 10px;
-        
-            .header-area{
-                background-image: url('../../assets/images/me.jpg');
-                border-radius: 10px 10px 50% 0;
-                padding: 120px 30px;
-                -webkit-background-size: cover;
-                background-size: cover;
-                background-position: center center;
-                box-shadow: 0 3px 8px rgba(0, 0, 0, .3);
-            }
-        
-            
-        .body-area{
-            padding: 20px 30px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            h3{
-                margin: 0;
-                font-size: 25px;
-                letter-spacing: 3px;
-            }
-        
-            h4{
-                color: crimson;
-                font-size: 18px;
-                margin: 15px 0;
-                text-transform: uppercase;
-            }
-        
-            span{
-                color: crimson;
-            }
-        
-            .pro-text{
-                text-align: justify;
-            }
-        }
-        
-        }
+    ul{
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
 
-        .skillset-wrapper{
-            width: 100%;
-            padding-top: 5vh;
-
-            h2{
-                color: $textColor;
-            }
-
-            ul{
-                flex-wrap: wrap;
-                display: flex;
-
-                li{
-                    margin-top: 2vh;
-                    @include listStyle;
-                    color: $textColor;
-                    font-size: 18px;
-                    letter-spacing: 2px;
-                    text-transform: uppercase;
-                }
-            }
+        li{
+            margin-top: 1vh;
+            @include listStyle;
+            color: $tech-text;
+            // color: rgb(226, 230, 209);
+            font-size: 20px;
+            letter-spacing: 1px;
+            text-transform: capitalize;
         }
     }
+    }
+
+    
+
 }
+}
+

@@ -24,10 +24,10 @@
     "picture": "images/mealq.JPG"
   },
   {
-    "name": "Portfolio V3",
-    "technologies": "React.js, SASS",
-    "description": "This portfolio is a first React Multi Page Appliation.",
-    "repository":"https://github.com/yuniksung/react-portfolio",
+    "name": "Portfolio V4",
+    "technologies": "React.js, React Hooks, SASS",
+    "description": "Latest portfolio created after bootcamp course",
+    "repository":"https://github.com/yuniksung/portfolio-v4/tree/main",
     "link": " https://yuniksung.github.io/react-portfolio/",
     "picture": "images/Portfolio.JPG"
   }

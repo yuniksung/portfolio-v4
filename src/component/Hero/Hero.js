@@ -10,38 +10,33 @@ class Hero extends Component{
 
         return(
             <div className="hero-container">
-
                 <div className="hero-wrapper">
-                    <div className="single-box">
-                        <div className="header-area">
-                        </div>
-                        <div className="body-area">
-                            <h3>Yunik Sung</h3>
-                            <h4>Fullstack Developer</h4>
-                            <p className="pro-text">  I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between.
-                            Especially I have serious passion for UI design, animations and creating intuitive, dynamic user experiences.
-                            </p>
-                            <h5>
-                            Here are Technologies I am Capable of:
-                            </h5>
-                            <ul>
-                                <li>html/css</li>
-                                <li>SASS</li>
-                                <li>Javascript</li>
-                                <li>Node.js</li>
-                                <li>express</li>
-                            </ul>
-                            <ul>
-                                <li>mySQL</li>
-                                <li>React.js</li>
-                                <li>MERN</li>
-                                <li>State</li>
-                            </ul>
-                        </div>  
+                    <div className="hero-title">
+                        <p>
+                            Hello, my name is
+                        </p>
+                        <h1>
+                            Yunik Sung
+                        </h1>
+                        <h2>
+                            Fullstack Web Developer
+                        </h2>
                     </div>
-
-
-                </div>       
+                    <div className="hero-descript">
+                        <h3>
+                        I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. Especially I have serious passion for <span>
+                        UI design</span>, animations and creating intuitive, dynamic user experiences.
+                        </h3>
+                        
+                    </div>
+                    <div className="hireme-btn">
+                        <a href="mailto:yuniksung@gmail.com" 
+                            rel="noreferrer"
+                            className="icon">
+                            Hire Me
+                        </a>
+                    </div>
+                </div>
             </div>
 
         )

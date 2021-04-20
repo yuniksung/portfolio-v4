@@ -12,98 +12,73 @@
   height: 100vh;
   background: $default-background;
   @include flexCen;
+  font-family: $default-font;
 
   .hero-wrapper{
-    width: 80%;
+    width: 70%;
+    height: 50%;
     margin: auto;
-    display: flex;
-    justify-content: space-evenly;
-  }
 
-  .single-box{
-    width: 80%;
-    height: 500px;
-    background-color: $dark-background;
-    align-self: center;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, .3);
-    border-radius: 10px;
-    display: flex;
-    @include ease-out;
+    .hero-title{
+      width: 45%;
 
-    &:hover{
-      box-shadow: 0 3px 8px rgba(0, 0, 0, .1);
+      p{
+        text-align: end;
+        font-size: 2em;
+        margin-bottom: -1.5em;
+        padding: 0 1em;
+        color: $section-text;
+      }
+      h1{
+        color: $textColor;
+        letter-spacing: 3px;
+        font-size: 8rem;
+      }
+  
+      h2{
+        color: $section-text;;
+        margin-top: -1em;
+        font-size: 2em;
+        font-weight: 400;
+      }
     }
 
-    .header-area{
-        width: 40%;
-        height: 100%;
-        background-image: url('../../assets/images/me1.jpg');
-        border-radius: 10px 10px 50% 0;
-        -webkit-background-size: cover;
-        background-size: cover;
-        background-position: center center;
-        box-shadow: 0 3px 8px rgba(0, 0, 0, .3);
+    .hero-descript{
+      width: 50%;
+      margin-top: 1em;
 
-
-    }
-
-    .body-area{
-      margin: auto;
-      width: 40%;
-      padding: 20px 30px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
 
       h3{
-          margin: 0;
-          font-size: 35px;
-          letter-spacing: 3px;
-          color: $title-text;
-      }
-
-      h4{
-          color: $title-text;
-          font-size: 18px;
-          margin: 15px 0;
-          text-transform: uppercase;
-      }
-
-      .pro-text{
-        padding: 10px;
-        letter-spacing: 1px;
-        text-align: justify;
+        font-weight: 300;
         color: $paragraph-text;
-        font-size: 20px;
-        line-height: 150%
-      }
-      
+        letter-spacing: 1px;
 
-      h5{
-        padding: 10px 0;
-        color: $title-text;
-        font-size: 26px;
-    }
-
-    ul{
-      width: 100%;
-      display: flex;
-      justify-content: flex-start;
-
-        li{
-            margin-top: 1vh;
-            @include listStyle;
-            color: $paragraph-text;
-            font-size: 20px;
-            letter-spacing: 1px;
-            text-transform: capitalize;
+        span{
+          color: $section-text;;
         }
-    }
+      }
     }
 
-    
+    .hireme-btn{
+      width: 40%;
+      margin-top: 4em;
 
-}
+      a{
+        border: solid 1px $section-text;
+        border-radius: 5px;
+        padding: 10px 20px;
+        text-decoration: none;
+        color: $section-text;
+        font-size: 1.5em;
+        letter-spacing: 1px;
+        font-family: $anchor-font;
+        transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+
+        &:hover{
+          background-color: #ffd0004b;
+        }
+      }
+    }
+  }
 }
 
