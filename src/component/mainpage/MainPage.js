@@ -16,7 +16,8 @@ export default function MainPage(){
     return(
         <>
         <Hero />
-        <PageAboutMe />
+        {/* <h1 className="h1"></h1> */}
+        {/* <PageAboutMe /> */}
         <h1 className="h1">Projects</h1>
         <Projects />
         <h1 className="h1">Other Projects</h1>

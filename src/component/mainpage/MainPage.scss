@@ -8,3 +8,7 @@
 .h1{
     @include sectionTitle;
 }
+
+.h1-2{
+    @include sectionTitle-2;
+}

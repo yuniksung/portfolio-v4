@@ -10,42 +10,47 @@
 .hero-container {
   width: 100%;
   height: 100vh;
-  background: $default-background;
+  background: $light-background;
   @include flexCen;
   font-family: $default-font;
 
   .hero-wrapper{
     width: 70%;
-    height: 50%;
-    margin: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
 
-    .hero-title{
-      width: 45%;
+    .hero-body{
+      width: 50%;
 
-      p{
-        text-align: end;
-        font-size: 2em;
-        margin-bottom: -1.5em;
-        padding: 0 1em;
-        color: $section-text;
-      }
-      h1{
-        color: $textColor;
-        letter-spacing: 3px;
-        font-size: 8rem;
-      }
+      .hero-title{
   
-      h2{
-        color: $section-text;;
-        margin-top: -1em;
-        font-size: 2em;
-        font-weight: 400;
+        p{
+          text-align: end;
+          font-size: 2em;
+          margin-bottom: -1.5em;
+          padding: 0 3em;
+          color: $section-text;
+        }
+        h1{
+          color: $textColor;
+          letter-spacing: 3px;
+          font-size: 8rem;
+        }
+    
+        h2{
+          color: $section-text;;
+          margin-top: -1em;
+          font-size: 2em;
+          font-weight: 400;
+        }
       }
     }
+    
 
     .hero-descript{
-      width: 50%;
       margin-top: 1em;
+      padding-right: 3em;
 
 
       h3{
@@ -54,7 +59,51 @@
         letter-spacing: 1px;
 
         span{
-          color: $section-text;;
+          color: $section-text;
+        }
+      }
+    }
+
+    .single-box{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      align-content: center;
+  
+      .body-area{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+  
+        h5{
+          padding-top: 10px;
+          color: $section-text;
+          font-size: 1.5em;
+          font-weight: 300;
+        }
+  
+        .skills-order{
+          width: 80%;
+          display: flex;
+          justify-content: space-evenly;
+  
+          ul{
+            width: 60%;
+    
+              li{
+                  @include listStyle;
+                  color: $tech-text;
+                  // color: rgb(226, 230, 209);
+                  font-size: 20px;
+                  letter-spacing: 1px;
+                  text-transform: capitalize;
+              }
+          }
         }
       }
     }
@@ -79,6 +128,21 @@
         }
       }
     }
+
+    .hero-picture{
+      width: 50%;
+      height: 100%;
+      display: contents;
+
+      img{
+        z-index: 0;
+        margin-left: 10em;
+        width: 400px;
+        height: 80%;
+        margin-top: auto;
+      }
+    }
+
   }
 }
 

@@ -5,10 +5,10 @@
 @import '../../assets/Styles/mixin-variables.scss';
 
 .navbar.active{
-    background-color: $default-background;
+    background-color: rgba(96, 141, 137, 0.5);
     height: 70px;
     transition: ease-in 0.3s;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.35);
 }
 
 .navbar{
@@ -16,9 +16,8 @@
     height: 70px;
     position: fixed;
     padding: 10px;
-    background-color: transparent;
     transition: ease-in 0.2s;
-    // box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    z-index: 999;
 
     .nav-wrapper{
         width: 50%;
@@ -39,8 +38,14 @@
                 &:hover{
                     color: #a88900;
                 }
+
+                
+                
+                
                 }
             }
         }
     }
 }
+
+  
