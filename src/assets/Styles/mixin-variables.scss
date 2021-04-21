@@ -16,17 +16,6 @@ $tech-text: #d8d8d8;
 $paragraph-text: #f1ecec;
 $anchor-text: #c09d00;
 
-// $light-background: #446461;
-// $default-background: #0A192F;
-// $dark-background: #112240;
-
-// $textColor: #cad2c5;
-// $darker-textColor: #84a98c;
-// $darkest-textColor: #6e8d74;
-
-
-
-
 $section-shadow: 0px 0px 50px rgba(0, 0, 0, 0.3);
 
 
@@ -70,6 +59,7 @@ $anchor-font: 'Roboto Mono', monospace;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
 }
 
+// Hover effects
 @mixin sectionShadow{
     box-shadow: 10px 10px 10px rgba(0, 0, 0, .3);
     @include ease-out;
@@ -80,6 +70,12 @@ $anchor-font: 'Roboto Mono', monospace;
     }
 }
 
+// effect transition
+@mixin ease-out{
+    transition: ease-out 0.5s;
+}
+
+// Title presets
 @mixin sectionTitle{
     font-size: 42px;
     text-transform: uppercase;
@@ -93,10 +89,7 @@ $anchor-font: 'Roboto Mono', monospace;
     background-color: $dark-background;
 }
 
-// effect transition
-@mixin ease-out{
-    transition: ease-out 0.5s;
-}
+
 
 // Section title
 @mixin sectionTitle{

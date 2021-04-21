@@ -43,21 +43,18 @@ class Hero extends Component{
 
                                 <div className="skills-order">
                                     <ul>
-                                        <li>html/css</li>
+                                        <li>html/Css</li>
                                         <li>SASS</li>
                                         <li>State</li>
-                                    </ul>
-                                    <ul>
                                         <li>Javascript</li>
                                         <li>Node.js</li>
-                                    </ul>
-                                    <ul>
-                                        <li>express</li>
+                                        <li>Express.Js</li>
                                         <li>mySQL</li>
-                                    </ul>
-                                    <ul>
                                         <li>React.js</li>
-                                        <li>MERN</li>
+                                        <li>MongoDB</li>
+                                        <li>Mongoose</li>
+                                        <li>Git</li>
+                                        <li>Github</li>
                                     </ul>
                                 </div>
                             </div>  
@@ -71,6 +68,11 @@ class Hero extends Component{
                                 rel="noreferrer"
                                 className="icon">
                                 Hire Me
+                            </a>
+                            <a target="_blank" 
+                            rel="noreferrer" 
+                            href={process.env.PUBLIC_URL+'/Yunik_Resume.pdf'}>
+                                Download Resume
                             </a>
                         </div>
                     </div>

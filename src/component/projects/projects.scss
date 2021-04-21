@@ -21,7 +21,16 @@
         display: flex;
         margin: 1em 2em;
         background-color: $dark-background;
-        @include sectionShadow;
+        // @include ease-out;
+        transition: all .4s ease;
+        
+        &:hover{
+            -moz-transform: translate(0px, -10px);
+            -ms-transform: translate(0px, -10px);
+            -o-transform: translate(0px, -10px);
+            -webkit-transform: translate(0px, -10px);
+            transform: translate(0px, -10px)
+}
 
         .project-pic{
             width: 50%;
