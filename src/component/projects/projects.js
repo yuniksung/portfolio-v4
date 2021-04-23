@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Aos from "aos";
+
+import "aos/dist/aos.css";
 import './projects.scss'
 import ProjectData from '../../projects.json'
 
 function Projects() {
 
+    useEffect(() => {
+        Aos.init({
+            duration: 3000
+        });
+    }, []);
 
 
     return(
@@ -12,7 +20,7 @@ function Projects() {
             {ProjectData.map((data, index)=>{
 
 
-                return <div className="project-box">
+                return <div data-aos="fade-up" className="project-box">
                             
                             <div className="project-pic">
                                 <img src={data.picture}

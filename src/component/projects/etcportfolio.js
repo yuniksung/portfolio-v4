@@ -1,17 +1,26 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Aos from "aos";
+
+import "aos/dist/aos.css";
 import './etcportfolio.scss'
+
 import etcProjects from '../../etcprojects.json'
 import ViewMoreBtn from './ViewMore'
 
 function PageEtcPortfolio() {
-
+    useEffect(() => {
+        Aos.init({
+            duration: 1000
+        });
+    }, []);
    
     return(
 
         <div className="etc-container">
             {etcProjects.map((projectDetail, index)=>{
 
-                return  <div className="etc-row">
+                return  <div data-aos="fade-up"
+                        className="etc-row">
                             <div className="row-header">
                                 <p>
                                     {projectDetail.name}

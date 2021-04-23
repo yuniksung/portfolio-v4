@@ -1,12 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Aos from "aos";
 
+import "aos/dist/aos.css";
 import './Appeal.scss'
 
 const Appeal = () => {
+
+    useEffect(() => {
+        Aos.init({
+            duration: 1500
+        });
+    }, []);
     
     return(
         <div className="appeal-container">
-            <div className="appeal-wrapper">
+            <div data-aos="fade-up" className="appeal-wrapper">
             <i className="fas fa-quote-right"></i>
             <p>
             Full Stack Web Developer leveraging a background in project management. Recognized for <span>leadership</span>. Recently received
