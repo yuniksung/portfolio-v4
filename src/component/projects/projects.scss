@@ -13,6 +13,10 @@
     align-items: center;
     margin: 2em auto;
 
+    @include media("<=desktop"){
+        width: 80%;
+        justify-content: center;
+      }
 
     .project-box{
         padding: 10px 20px;
@@ -23,6 +27,13 @@
         background-color: $dark-background;
         // @include ease-out;
         transition: all .4s ease;
+
+        @include media("<=desktop"){
+            width: 80%;
+            margin: 1em 2em;
+          }
+
+
         
         &:hover{
             -moz-transform: translate(0px, -10px);
