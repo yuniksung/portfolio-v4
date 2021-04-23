@@ -20,19 +20,43 @@
     display: flex;
     align-items: center;
 
-    // 13660px
     @include media("<=desktop"){
       width: 80%;
       margin: auto;
-  } 
+    } 
+
+    @include media("<=bigTablet"){
+      width: 80%;
+      margin: auto;
+    } 
+
+    @include media("<=tablet"){
+      width: 90%;
+      margin: auto;
+    } 
+  
+
 
     .hero-body{
       width: 50%;
 
+
       @include media("<=desktop"){
-        width: 35%;
+        width: 60%;
         margin: auto;
     } 
+
+      @include media("<=bigTablet"){
+        width: 60%;
+        margin: auto;
+      } 
+
+      @include media("<=tablet"){
+        width: 90%;
+        margin: auto;
+      } 
+
+
 
       .hero-title{
   
@@ -44,9 +68,23 @@
           color: $section-text;
 
           @include media("<=desktop"){
-            font-size: 1.5rem;
+            font-size: 2rem;
             letter-spacing: 2px;
           }
+
+          @include media("<=bigTablet"){
+            font-size: 2rem;
+            letter-spacing: 2px;
+            text-align: center;
+            padding: 0;
+          } 
+
+          @include media("<=tablet"){
+            font-size: 1.5rem;
+            letter-spacing: 2px;
+            text-align: center;
+            padding: 0;
+          } 
 
         }
         h1{
@@ -55,9 +93,21 @@
           font-size: 8rem;
 
           @include media("<=desktop"){
-            font-size: 4rem;
+            font-size: 9rem;
             margin-top: 0.4em;
         } 
+
+          @include media("<=bigTablet"){
+            font-size: 5.5rem;
+            letter-spacing: 2px;
+          } 
+
+          @include media("<=tablet"){
+            font-size: 4em;
+            letter-spacing: 1px;
+            text-align: center;
+            padding: 0;
+          } 
 
         }
     
@@ -68,9 +118,22 @@
           font-weight: 400;
 
           @include media("<=desktop"){
-            font-size: 1.5rem;
+            font-size:2rem;
             letter-spacing: 2px;
             margin-top: 0;
+          } 
+
+          @include media("<=bigTablet"){
+            font-size: 2rem;
+            letter-spacing: 2px;
+            text-align: center;
+          } 
+
+          @include media("<=tablet"){
+            font-size: 1.5em;
+            letter-spacing: 1px;
+            text-align: center;
+            padding: 0;
           } 
         }
       }
@@ -81,6 +144,10 @@
       margin-top: 1em;
       padding-right: 3em;
 
+      @include media("<=bigTablet"){
+        padding-right: 0;
+      }
+
 
       h3{
         font-weight: 300;
@@ -88,8 +155,14 @@
         letter-spacing: 1px;
 
         @include media("<=desktop"){
-          letter-spacing: 1.5px;
+          letter-spacing: 1px;
+          font-size: 2em;
         }
+
+        @include media("<=bigTablet"){
+          letter-spacing: 1px;
+          font-size: 1.5em;
+        } 
 
         span{
           color: $section-text;
@@ -120,8 +193,18 @@
           font-weight: 300;
 
           @include media("<=desktop"){
-            padding-top: 20px;
+            padding: 20px 0;
+            letter-spacing: 1px;
+            font-size: 2em;
           }
+
+          @include media("<=bigTablet"){
+            font-size: 1.5em;
+          }
+
+          @include media("<=tablet"){
+            font-size: 1.3em;
+          } 
         }
   
         .skills-order{
@@ -140,7 +223,17 @@
                   padding: 3px 10px;
                   margin: 3px 2px;
 
-                  
+                  @include media("<=desktop"){
+                    font-size: 26px;
+                  }
+
+                  @include media("<=bigTablet"){
+                    font-size: 1.5em;
+                  }
+
+                  @include media("<=tablet"){
+                    font-size: 1.3em;
+                  } 
 
                   &:hover{
                     background-color: $title-text;
@@ -158,9 +251,12 @@
       @include media("<=desktop"){
         width: 100%;
         display: flex;
-        flex-direction: column;
         margin: 10px 0;
-        align-items: flex-start;
+      }
+
+      @include media("<=bigTablet"){
+        margin: 5px 0;
+        flex-direction: column;
       }
 
       a{
@@ -181,6 +277,13 @@
           text-align: center;
         }
 
+        @include media("<=bigTablet"){
+          padding: 5px 10px;
+        }
+
+        
+  
+
         &:hover{
           background-color: #ffd0004b;
         }
@@ -198,6 +301,18 @@
         width: 400px;
         height: 80%;
         margin-top: auto;
+
+        @include media("<=desktop"){
+          margin-left: 0;
+        } 
+
+        @include media("<=bigTablet"){
+          margin-left: 0;
+        } 
+
+        @include media("<=tablet"){
+          margin-right: -1.5em;
+        } 
       }
     }
 

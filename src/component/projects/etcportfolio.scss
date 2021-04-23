@@ -9,6 +9,11 @@
     width: 70%;
     margin: 2em auto;
 
+    
+    @include media("<=tablet"){
+        width: 90%;
+      } 
+
     .etc-row{
         width: 100%;
         display: flex;
@@ -25,10 +30,19 @@
             height: 30%;
             padding: 10px 20px;
 
+            @include media("<=tablet"){
+                width: 15%;
+              } 
+
             p{
                 text-transform: uppercase;
                 font-size: 25px;
                 color: $section-text;
+
+                @include media("<=tablet"){
+                    font-size: 1.3em;
+                  } 
+                
             }
         }
 
@@ -51,6 +65,7 @@
                 color: $tech-text;
                 font-weight: 400;
                 word-spacing: 1em;
+
             }
         }
 

@@ -13,6 +13,14 @@
     top: 50%;
     padding: 20px;
 
+    @include media("<=bigTablet"){
+        left: 1.2em;
+    } 
+
+    @include media("<=tablet"){
+        display: none;
+    } 
+
     ul{
 
         li{

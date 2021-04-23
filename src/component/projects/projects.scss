@@ -16,7 +16,12 @@
     @include media("<=desktop"){
         width: 80%;
         justify-content: center;
-      }
+    }
+
+    @include media("<=tablet"){
+    width: 90%;
+    justify-content: center;
+    }
 
     .project-box{
         padding: 10px 20px;
