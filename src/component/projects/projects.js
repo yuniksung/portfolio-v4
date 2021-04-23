@@ -16,7 +16,7 @@ function Projects() {
 
     return(
 
-        <div className="projects-container" id="projects">
+        <div className="projects-container">
             {ProjectData.map((data, index)=>{
 
 

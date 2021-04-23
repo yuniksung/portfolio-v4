@@ -15,7 +15,7 @@ function Hero(){
     }, []);
 
     return(
-        <div className="hero-container" id="about-me">
+        <div className="hero-container">
             <div className="hero-wrapper">
                 <div className="hero-body">
                     <div className="hero-title">

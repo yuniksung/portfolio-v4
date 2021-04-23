@@ -19,8 +19,10 @@ function PageEtcPortfolio() {
         <div className="etc-container">
             {etcProjects.map((projectDetail, index)=>{
 
-                return  <div key={index}
-                className="etc-row">
+                return  <div 
+                        data-aos="fade-up"
+                        key={index}
+                        className="etc-row">
                             <div className="row-header">
                                 <p>
                                     {projectDetail.name}

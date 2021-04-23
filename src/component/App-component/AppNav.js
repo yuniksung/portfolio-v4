@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 import './AppNav.scss'
 
@@ -23,11 +23,14 @@ const AppNav = () => {
         }>
             <div className="nav-wrapper">
                 <ul>
-                    <li key="menu1">
-                        <Link to={"/aboutme"}>About</Link>
+                    <li>
+                        <Link to="hero">About</Link>
                     </li>
-                    <li key="menu2">
-                        <Link to={"/projects"}>Projects</Link>
+                    <li>
+                        <Link to="projects">Projects</Link>
+                    </li>
+                    <li>
+                        <Link to="etcprojects">Other Projects</Link>
                     </li>
                     <li>
                         <a 
