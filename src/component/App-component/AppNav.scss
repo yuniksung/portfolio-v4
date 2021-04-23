@@ -26,16 +26,22 @@
 
         @include media("<=mobileL"){
             margin: auto;
+            
           } 
 
         ul{
             @include navFlex;
 
+            @include media("<=myphone"){
+                justify-content: center;
+              } 
+
             li{
                 @include listStyle2;
 
                 @include media("<=mobileL"){
-                    padding: 5px 10px;
+                    padding: 5px 5px;
+                    text-align: center;
                   } 
 
                 a{
@@ -47,6 +53,7 @@
 
                     @include media("<=mobileL"){
                         font-size: 1.5em;
+                        text-align: center;
                       } 
                     
                 &:hover{

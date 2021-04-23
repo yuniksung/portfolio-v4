@@ -16,13 +16,24 @@
     @include media("<=mobileL"){
         margin: 0;
         padding: 10px;
-      } 
+    } 
+
+    @include media("<=myphone"){
+        margin: 0;
+        padding: 10px;
+    } 
 
     .appeal-wrapper{
         width: 70%;
         margin: auto;
         text-align: center;
         padding: 3em 0;
+
+        @include media("<=myphone"){
+            width: 95%;
+            margin: 0;
+            padding: 0;
+        } 
 
         @include media("<=mobileL"){
             width: 95%;

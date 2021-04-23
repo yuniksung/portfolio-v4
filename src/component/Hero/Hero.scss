@@ -314,6 +314,10 @@
           margin-right: -1.5em;
         } 
 
+        @include media("<=myphone"){
+          display: none;
+        } 
+
         @include media("<=mobileL"){
           display: none;
         } 
