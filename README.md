@@ -5,7 +5,7 @@ This webpage is built on React.js using SASS, various NPM packages and React Hoo
 You can view my portfolio at [https://yuniksung.github.io/portfolio-v4/](https://yuniksung.github.io/portfolio-v4/).
 
 
-![demo](https://github.com/yuniksung/portfolio-v4/blob/main/assets/images/screenshot.jpg?raw=true)
+![demo](https://github.com/yuniksung/portfolio-v4/blob/main/assets/images/12.jpg?raw=true)
 
 ## Installation
 Download the code, open your terminal and navigate to the downloaded folder. 
@@ -14,15 +14,9 @@ Download the code, open your terminal and navigate to the downloaded folder.
 
    ```sh
    nvm install
-   ```
+   ````
 
-2. Install dependencies
-
-   ```sh
-   yarn
-   ```
-
-3. Start the development server
+2. Start the development server
 
    ```sh
    npm start
