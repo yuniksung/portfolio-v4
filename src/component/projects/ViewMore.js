@@ -8,7 +8,9 @@ function ViewMoreBtn() {
 
         <h3>
         To see more projects, 
-            <a href="www.github.com/yuniksung" target="_blank">
+            <a href="https://www.github.com/yuniksung" 
+            target="_blank"
+            rel="noopener noreferrer">
                 CLICK HERE
             </a>
         to visit my repository.
