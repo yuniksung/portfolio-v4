@@ -8,7 +8,7 @@ function Projects() {
 
     return(
 
-        <div className="projects-container">
+        <div className="projects-container" id="projects">
             {ProjectData.map((data, index)=>{
 
 

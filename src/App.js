@@ -1,30 +1,38 @@
+import React from 'react'
 import { BrowserRouter as Router } from "react-router-dom";
 
 // Pages
-import MainPage from "./component/mainpage/MainPage"
-
+import Projects from "./component/projects/projects"
+import Etcportfolio from './component/projects/etcportfolio'
+import Hero from './component/Hero/Hero'
 
 // Components
-import AppStickyMenu from "./component/App-component/AppStickyMenu";
 import AppNav from "./component/App-component/AppNav";
-// import AppFooter from "./component/App-component/AppFooter";
+import AppStickyMenu from "./component/App-component/AppStickyMenu";
+import AppFooter from "./component/App-component/AppFooter";
+
 
 import "./App.scss";
 
 function App() {
 
-  const pages = ["home", "Classes", "Workout", "Profile"];
-
-  const navLinks = pages.map((page) => {
-    return <a href={"/" + page}>{page}</a>;
-  });
-
   return (
   <Router>
-    <AppNav>{navLinks}</AppNav>
+
     <div>
-        <MainPage />
+      <AppNav />
+        <Hero />
+        <h1 className="h1">
+          Projects
+        </h1>
+        <Projects />
+        <h1 className="h1">
+          Other Projects
+        </h1>
+        <Etcportfolio />
         <AppStickyMenu />
+        <AppFooter />
+        
     </div>
   </Router>
   );

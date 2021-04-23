@@ -23,17 +23,18 @@ const AppNav = () => {
         }>
             <div className="nav-wrapper">
                 <ul>
-                    <li>
-                        <Link to={"/"}>Home</Link>
-                    </li>
-                    <li>
+                    <li key="menu1">
                         <Link to={"/aboutme"}>About</Link>
                     </li>
-                    <li>
+                    <li key="menu2">
                         <Link to={"/projects"}>Projects</Link>
                     </li>
                     <li>
-                        <Link to={"/resume"}>Resume</Link>
+                        <a 
+                        className="icon" 
+                        href={process.env.PUBLIC_URL+'/Yunik_Resume.pdf'}>
+                            Resume
+                        </a>
                     </li>
                 </ul>
             </div>
