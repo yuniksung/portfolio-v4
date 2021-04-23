@@ -13,11 +13,22 @@
     background-color: $mid-background;
     font-family: $default-font;
 
+    @include media("<=mobileL"){
+        margin: 0;
+        padding: 10px;
+      } 
+
     .appeal-wrapper{
         width: 70%;
         margin: auto;
         text-align: center;
         padding: 3em 0;
+
+        @include media("<=mobileL"){
+            width: 95%;
+            margin: 0;
+            padding: 0;
+          } 
         i{
             color: $darker-textColor;
             font-size: 1em;
@@ -36,6 +47,10 @@
             font-size: 1.5em;
             color: $tech-text;
             letter-spacing: 1px;
+
+            @include media("<=mobileL"){
+                font-size: 1.2em;
+              } 
 
             span{
                 color: $page-text;

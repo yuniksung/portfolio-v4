@@ -1,5 +1,6 @@
 [
     {
+    "id": 1,
     "name": "Fit Club",
     "technologies": "MERN stack, SASS, Socket.io",
     "description": "A Social Fitness Application to Connect Fitness Enthusiasts Due to COVID-19, the fitness community had to adapt to new ways to work out at home.",
@@ -8,6 +9,7 @@
     "picture": "images/fitclub.JPG"
   },
   {
+    "id": 2,
     "name": "Music Line",
     "technologies": "Node.js, Express.js Sequelize, Handlebars",
     "description": "E-Commerce site allowing for purchase and rental of music products",
@@ -16,6 +18,7 @@
     "picture": "images/musicline.JPG"
   },
   {
+    "id": 3,
     "name": "Meal Queue",
     "technologies": "Node.js, Express.js, Sequelize, Handlebars",
     "description": "Type in a food item and a list of different recipes is presented with an option to view a video tutorial.",
@@ -24,6 +27,7 @@
     "picture": "images/mealq.JPG"
   },
   {
+    "id": 4,
     "name": "Portfolio V4",
     "technologies": "React.js, React Hooks, SASS",
     "description": "Latest portfolio created after bootcamp course",

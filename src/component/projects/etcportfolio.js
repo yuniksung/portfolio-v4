@@ -19,8 +19,8 @@ function PageEtcPortfolio() {
         <div className="etc-container">
             {etcProjects.map((projectDetail, index)=>{
 
-                return  <div data-aos="fade-up"
-                        className="etc-row">
+                return  <div key={index}
+                className="etc-row">
                             <div className="row-header">
                                 <p>
                                     {projectDetail.name}
@@ -35,10 +35,14 @@ function PageEtcPortfolio() {
                                 </h5>
                             </div>
                             <div className="row-ftr">
-                                <a href={projectDetail.repository} target="_blank" rel="noreferrer">
+                                <a href={projectDetail.repository} 
+                                target="_blank" 
+                                rel="noopener noreferrer">
                                     <i className="fab fa-github"></i>
                                 </a>
-                                <a href={projectDetail.link} target="_blank" rel="noreferrer">
+                                <a href={projectDetail.link} 
+                                target="_blank" 
+                                rel="noopener noreferrer">
                                     <i className="fas fa-external-link-alt"></i>
                                 </a>
                             </div>

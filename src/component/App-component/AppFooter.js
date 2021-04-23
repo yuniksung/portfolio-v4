@@ -13,7 +13,7 @@ function AppFooter(){
                         <a href="mailto:yuniksung@gmail.com" 
                         rel="noreferrer"
                         className="icon">
-                            <i class="fas fa-envelope"></i>
+                            <i className="fas fa-envelope"></i>
                         </a>
                     </li>
                     <li>
