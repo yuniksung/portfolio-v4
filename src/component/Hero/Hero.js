@@ -26,7 +26,7 @@ function Hero(){
                             Yunik Sung
                         </h1>
                         <h2>
-                            Fullstack Web Developer
+                            Full Stack Web Developer
                         </h2>
                     </div>
                     <div className="hero-descript">
