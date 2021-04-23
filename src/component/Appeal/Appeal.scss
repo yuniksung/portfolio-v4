@@ -1,0 +1,47 @@
+// Responsive
+@import '../../assets/Styles/mediaQueries.scss';
+
+// Variables and Mixins
+@import '../../assets/Styles/mixin-variables.scss';
+
+
+.appeal-container{
+    @include sectionBox;
+    @include flexCen;
+    flex-direction: column;
+    // background-color: $light-background;
+    background-color: $mid-background;
+    font-family: $default-font;
+
+    .appeal-wrapper{
+        width: 70%;
+        margin: auto;
+        text-align: center;
+        padding: 3em 0;
+        i{
+            color: $darker-textColor;
+            font-size: 1em;
+            
+        }
+
+        .fa-quote-right{
+            margin-bottom: 1em;
+        }
+
+        .fa-quote-left{
+            margin-top: 1em;
+        }
+    
+        p{
+            font-size: 1.5em;
+            color: $tech-text;
+            letter-spacing: 1px;
+
+            span{
+                color: $page-text;
+            }
+        }
+    }
+
+
+}

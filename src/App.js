@@ -5,6 +5,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import Projects from "./component/projects/projects"
 import Etcportfolio from './component/projects/etcportfolio'
 import Hero from './component/Hero/Hero'
+import Appeal from './component/Appeal/Appeal'
 
 // Components
 import AppNav from "./component/App-component/AppNav";
@@ -22,6 +23,8 @@ function App() {
     <div>
       <AppNav />
         <Hero />
+        <Appeal />
+
         <h1 className="h1">
           Projects
         </h1>
