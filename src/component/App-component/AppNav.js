@@ -22,15 +22,16 @@ const AppNav = () => {
             navbar ? 'navbar active' : 'navbar'
         }>
             <div className="nav-wrapper">
+
                 <ul>
                     <li>
                         <Link to="hero">About</Link>
                     </li>
                     <li>
-                        <Link to="projects">Projects</Link>
+                        <Link to="projects">Works</Link>
                     </li>
                     <li>
-                        <Link to="etcprojects">Other Projects</Link>
+                        <Link to="etcprojects">Other Works</Link>
                     </li>
                     <li>
                         <a 

@@ -22,7 +22,7 @@
 
     .nav-wrapper{
         width: 100%;
-        margin: 0 0 0 auto;
+        @include navFlex;
 
         @include media("<=mobileL"){
             margin: auto;
@@ -30,6 +30,7 @@
           } 
 
         ul{
+            width: 100%;
             @include navFlex;
 
             @include media("<=myphone"){

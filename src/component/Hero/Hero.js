@@ -68,6 +68,7 @@ function Hero(){
 
                     
                     <div className="hireme-btn">
+  
                         <a href="mailto:yuniksung@gmail.com" 
                             rel="noreferrer"
                             className="icon">

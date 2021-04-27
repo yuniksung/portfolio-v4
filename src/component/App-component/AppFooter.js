@@ -8,6 +8,15 @@ function AppFooter(){
                 <p>
                     Designed and Built By Yunik Sung
                 </p>
+                <div className="email">
+                    <a href="mailto:yuniksung@gmail.com" 
+                    rel="noreferrer"
+                    className="icon">
+                        <p>
+                            yuniksung@gmail.com
+                        </p>
+                    </a>
+                </div> 
                 <ul>
                     <li>
                         <a href="mailto:yuniksung@gmail.com" 

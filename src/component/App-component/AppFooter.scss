@@ -37,6 +37,25 @@
             letter-spacing: 1px;
         }
 
+        .email{
+            width: 70%;
+    
+            a{
+                text-decoration: none;
+    
+                p{
+                    color: $page-text;
+                    letter-spacing: 2px;
+        
+                    &:hover{
+                        color: $anchor-text;
+                    }
+                }
+            }
+            
+           
+        }
+
         ul{
             display: flex;
 

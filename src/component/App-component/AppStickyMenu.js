@@ -7,13 +7,18 @@ class AppStickyMenu extends Component{
 
         return(
             <div className="sticky-container">
+                <div className="email">
+                    <a href="mailto:yuniksung@gmail.com" 
+                    rel="noreferrer"
+                    className="icon">
+                        <p>
+                        yuniksung@gmail.com
+                        </p>
+                    </a>
+                </div> 
                 <ul>
                     <li>
-                        <a href="mailto:yuniksung@gmail.com" 
-                        rel="noreferrer"
-                        className="icon">
-                            <i className="fas fa-envelope"></i>
-                        </a>
+                        
                     </li>
                     <li>
                         <a target="_blank" 
@@ -38,7 +43,8 @@ class AppStickyMenu extends Component{
                             <i className="far fa-file-alt"></i>
                         </a>
                     </li>
-                </ul>                    
+                </ul>  
+                 
             </div>
         )
     }
