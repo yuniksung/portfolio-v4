@@ -57,6 +57,11 @@
                 font-size: 25px;
                 color: $section-text;
 
+                
+                @include media("<=hugemonitor"){
+                    font-size: 2em;
+                } 
+
                 @include media("<=tablet"){
                     font-size: 1.3em;
                 } 
@@ -83,6 +88,11 @@
                 color: $paragraph-text;
                 font-weight: 500;
 
+                
+                @include media("<=hugemonitor"){
+                    font-size: 2em;
+                } 
+
                 @include media("<=myphoneL"){
                     text-align: center;
                     margin-bottom: 1em;
@@ -96,6 +106,11 @@
                 color: $tech-text;
                 font-weight: 400;
                 word-spacing: 1em;
+
+                
+                @include media("<=hugemonitor"){
+                    font-size: 2em;
+                } 
 
                 @include media("<=myphoneL"){
                     text-align: center;
@@ -118,6 +133,11 @@
                 color: $anchor-text;
                 padding: 0 20px;
                 transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+
+                
+                @include media("<=hugemonitor"){
+                    font-size: 2em;
+                } 
 
                 @include media("<=myphoneL"){
                     text-align: center;
@@ -143,6 +163,11 @@
             text-align: center;
             color: $title-text;
 
+            
+            @include media("<=hugemonitor"){
+                font-size: 2em;
+            } 
+
             a{
                 padding: 0 10px;
                 color: rgb(215, 255, 40);
@@ -152,6 +177,7 @@
                 &:hover{
                     color: #806800;
                 }
+
             }
         }
     }

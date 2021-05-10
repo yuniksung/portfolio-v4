@@ -9,6 +9,9 @@
     height: 50px;
     // transition: ease-in 0.3s;
     padding: 0px 10px;
+
+    @include media("<=hugemonitor"){
+        height: 80px;    } 
 }
 
 .navbar{
@@ -51,6 +54,11 @@
                     text-decoration: none;
                     transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
                     cursor: pointer;
+
+                    
+                @include media("<=hugemonitor"){
+                    font-size: 3em;
+                } 
 
                     @include media("<=mobileL"){
                         font-size: 1.5em;

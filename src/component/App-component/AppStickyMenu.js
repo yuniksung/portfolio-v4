@@ -9,8 +9,7 @@ class AppStickyMenu extends Component{
             <div className="sticky-container">
                 <div className="email">
                     <a href="mailto:yuniksung@gmail.com" 
-                    rel="noreferrer"
-                    className="icon">
+                    rel="noreferrer">
                         <p>
                         yuniksung@gmail.com
                         </p>

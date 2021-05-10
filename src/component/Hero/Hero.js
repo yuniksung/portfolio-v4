@@ -46,20 +46,42 @@ function Hero(){
                             </h5>
 
                             <div className="skills-order">
-                                <ul>
-                                    <li>html/Css</li>
-                                    <li>SASS</li>
-                                    <li>State</li>
-                                    <li>Javascript</li>
-                                    <li>Node.js</li>
-                                    <li>Express.Js</li>
-                                    <li>mySQL</li>
-                                    <li>React.js</li>
-                                    <li>MongoDB</li>
-                                    <li>Mongoose</li>
-                                    <li>Git</li>
-                                    <li>Github</li>
-                                </ul>
+                                <div className="front-end skills-set">
+                                    <h3>
+                                        Front End
+                                    </h3>
+                                    <ul> 
+                                        <li>HTML/CSS</li>
+                                        <li>SASS</li>
+                                        <li>Javascript</li>
+                                        <li>React.js</li>
+                                    </ul>
+                                </div>
+                                <div className="back-end skills-set">
+                                    <h3>
+                                        Back End
+                                    </h3>
+                                    <ul> 
+                                        <li>Javascript</li>
+                                        <li>Node.js</li>
+                                        <li>Express.Js</li>
+                                        <li>mySQL</li>
+                                        <li>Mongoose</li>
+                                    </ul>
+                                </div>
+
+                                <div className="other-skills skills-set">
+                                    <h3>
+                                        Other
+                                    </h3>
+                                    <ul> 
+                                        <li>Git</li>
+                                        <li>Github</li>
+                                        <li>Heroku</li>
+                                        <li>Adobe Suites</li>
+                                        <li>MongoDB</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>  
                     </div>

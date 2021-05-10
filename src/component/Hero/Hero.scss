@@ -19,6 +19,13 @@
     height: 100%;
     display: flex;
     align-items: center;
+
+
+    
+    @include media("<=hugemonitor"){
+      width: 80%;
+    } 
+
     @include media("<=desktop"){
       width: 80%;
       margin: auto;
@@ -38,6 +45,11 @@
 
     .hero-body{
       width: 50%;
+
+      @include media("<=hugemonitor"){
+        width: 65%;
+        margin: auto;
+      } 
 
       @include media("<=desktop"){
         width: 60%;
@@ -65,6 +77,13 @@
           padding: 0 3em;
           color: $section-text;
 
+          @include media("<=hugemonitor"){
+            font-size: 4rem;
+            letter-spacing: 2px;
+            text-align: center;
+            margin-bottom: -0.6em;
+          } 
+
           @include media("<=desktop"){
             font-size: 2rem;
             letter-spacing: 2px;
@@ -89,6 +108,12 @@
           color: $textColor;
           letter-spacing: 3px;
           font-size: 8rem;
+
+          @include media("<=hugemonitor"){
+            font-size: 10rem;
+            margin-top: 0;
+            text-align: center;
+          } 
 
           @include media("<=desktop"){
             font-size: 9rem;
@@ -115,6 +140,12 @@
           margin-top: -1em;
           font-size: 2em;
           font-weight: 400;
+
+          @include media("<=hugemonitor"){
+            font-size: 4rem;
+            margin-top: 0;
+            text-align: center;
+          } 
 
           @include media("<=desktop"){
             font-size:2rem;
@@ -154,6 +185,12 @@
         color: $paragraph-text;
         letter-spacing: 1px;
 
+        @include media("<=hugemonitor"){
+          font-size: 3em;
+          margin-top: 0;
+          text-align: center;
+        } 
+
         @include media("<=desktop"){
           letter-spacing: 1px;
           font-size: 2em;
@@ -186,12 +223,23 @@
         justify-content: center;
         align-items: flex-start;
         flex-direction: column;
+
+        @include media("<=hugemonitor"){
+          align-items: center;
+        } 
+
   
         h5{
           padding-top: 10px;
           color: $section-text;
           font-size: 1.5em;
           font-weight: 300;
+
+          @include media("<=hugemonitor"){
+            font-size: 3em;
+            margin-top: 0;
+            text-align: center;
+          } 
 
           @include media("<=desktop"){
             padding: 20px 0;
@@ -215,40 +263,77 @@
         .skills-order{
           width: 80%;
           display: flex;
-          justify-content: space-evenly;
+
+          @include media("<=hugemonitor"){
+            justify-content: center;
+          } 
+
+          .skills-set{
+            width: 50%;
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+
+
+            @include media("<=hugemonitor"){
+              width: 20%;
+            } 
+
+            h3{
+              color: $section-text;
+              font-size: 17px;
+              font-weight: 300;
+
+              @include media("<=hugemonitor"){
+                font-size: 2.2em;
+                text-align: center;
+                margin-top: 10px;
+              } 
+            }
+
+            ul{
+              width: 100%;
+              height: 40%;
+              display: flex;
+              flex-direction: column;
+
+              @include media("<=hugemonitor"){
+                align-items: center;
+              } 
   
-          ul{
-    
-              li{
-                  font-size: 20px;
-                  display: inline-block;
-                  background-color: $page-text;
-                  border-radius: 3px;
-                  color: black;
-                  padding: 3px 10px;
-                  margin: 3px 2px;
+                li{
+                    font-size: 18px;
+                    border-radius: 3px;
+                    color: $darker-textColor;
+                    padding: 3px 0;
+                    margin-right: 10px;
+                    list-style: none;
+                    letter-spacing: 1px;
 
-                  @include media("<=desktop"){
-                    font-size: 26px;
-                  }
-
-                  @include media("<=bigTablet"){
-                    font-size: 1.5em;
-                  }
-
-                  @include media("<=tablet"){
-                    font-size: 1.3em;
-                  } 
-
-                  @include media("<=myphoneL"){
-                    font-size: 1.2em;
-                  } 
-
-                  &:hover{
-                    background-color: $title-text;
-                  }
-              }
+                    @include media("<=hugemonitor"){
+                      font-size: 2.2em;
+                    } 
+  
+                    @include media("<=desktop"){
+                      font-size: 26px;
+                    }
+  
+                    @include media("<=bigTablet"){
+                      font-size: 1.5em;
+                    }
+  
+                    @include media("<=tablet"){
+                      font-size: 1.3em;
+                    } 
+  
+                    @include media("<=myphoneL"){
+                      font-size: 1.2em;
+                    } 
+                }
+            }
           }
+  
+          
         }
       }
     }
@@ -256,6 +341,10 @@
     .hireme-btn{
       width: 100%;
       margin-top: 4em;
+
+      @include media("<=hugemonitor"){
+        text-align: center;
+      } 
 
       @include media("<=desktop"){
         width: 100%;
@@ -279,6 +368,10 @@
         letter-spacing: 1px;
         font-family: $anchor-font;
         transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+
+        @include media("<=hugemonitor"){
+          font-size: 3em;
+        } 
 
         @include media("<=desktop"){
           margin-top: 10px;
@@ -314,6 +407,11 @@
         width: 400px;
         height: 80%;
         margin-top: auto;
+
+        @include media("<=hugemonitor"){
+          width: 600px;
+          height: 80%;
+        } 
 
         @include media("<=desktop"){
           margin-left: 0;

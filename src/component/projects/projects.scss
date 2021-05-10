@@ -89,6 +89,7 @@
             flex-direction: column;
             justify-content: space-evenly;
             align-items: center;
+            
 
             @include media("<=myphoneL"){
                 width: 100%;
@@ -110,6 +111,10 @@
                     margin: 5px 0;
                     font-weight: 400;
 
+                    @include media("<=hugemonitor"){
+                        font-size: 2.5em;
+                    } 
+
                     @include media("<=myphoneL"){
                         font-size: 1.5em;
                         text-align: center;
@@ -124,6 +129,10 @@
                 p{
                     color: $paragraph-text;
                     font-size: 20px;
+
+                    @include media("<=hugemonitor"){
+                        font-size: 2em;
+                    } 
 
                     @include media("<=myphoneL"){
                         font-size: 1.5em;
@@ -141,6 +150,10 @@
                     word-spacing: 1em;
                     text-align: center;
 
+                    @include media("<=hugemonitor"){
+                        font-size: 2em;
+                    } 
+
                     @include media("<=myphoneL"){
                         font-size: 1.3em;
                         margin: 10px 0;
@@ -150,6 +163,7 @@
             
             .p3{
                 height: 15%;
+
 
                 @include media("<=myphoneL"){
                     font-size: 1.3em;
@@ -161,6 +175,11 @@
                     padding: 1em;
                     text-align: center;
                     font-size: 18px;
+
+                    
+                @include media("<=hugemonitor"){
+                    font-size: 2em;
+                } 
 
                     @include media("<=myphoneL"){
                         font-size: 1.3em;
