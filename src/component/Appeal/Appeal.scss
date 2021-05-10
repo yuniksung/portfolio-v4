@@ -47,10 +47,6 @@
         i{
             color: $darker-textColor;
             font-size: 1em;
-
-            @include media("<=hugemonitor"){
-                font-size: 2.5em;
-            } 
             
         }
 
@@ -67,9 +63,6 @@
             color: $tech-text;
             letter-spacing: 1px; 
 
-            @include media("<=hugemonitor"){
-                font-size: 2.5em;
-            } 
 
             @include media("<=mobileL"){
                 font-size: 1.2em;

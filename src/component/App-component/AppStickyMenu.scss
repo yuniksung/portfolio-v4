@@ -31,11 +31,6 @@
                 &:hover{
                     color: $anchor-text;
                 }
-
-                @include media("<=hugemonitor"){
-                    font-size: 2.5em;
-                    letter-spacing: 5px;
-                } 
             }
         }
         
@@ -66,11 +61,6 @@
                 font-size: 22px;
                 @include anchorStyle;
                 transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
-
-                @include media("<=hugemonitor"){
-                    font-size: 2.5em;
-                    margin-left: 1em;
-                  } 
                 
                 &:hover{
                     color: #806800;
