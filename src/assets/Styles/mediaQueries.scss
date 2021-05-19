@@ -24,7 +24,7 @@ $breakpoints: (
         $conditions,
         $i,
         parse-expression(nth($conditions, $i))
-      );
+      ); 
     }
   
     $branches: get-query-branches($conditions);
