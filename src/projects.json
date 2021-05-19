@@ -1,12 +1,12 @@
 [
     {
     "id": 1,
-    "name": "Fit Club",
-    "technologies": "MERN stack, SASS, Socket.io",
-    "description": "A Social Fitness Application to Connect Fitness Enthusiasts Due to COVID-19, the fitness community had to adapt to new ways to work out at home.",
-    "repository":"https://github.com/maxhealy01/fit-club",
-    "link": "https://fit-clob.herokuapp.com/",
-    "picture": "https://github.com/yuniksung/portfolio-v4/blob/develop/public/images/fitclub.jpg?raw=true"
+    "name": "Memories",
+    "technologies": "React.js, Materialize, MongoDB, Mongoose, Express.js, Node.js",
+    "description": "A Social media app that allows users to create, update, and delete posts.",
+    "repository":"https://github.com/yuniksung/project-sns",
+    "link": "https://project-sns.netlify.app/",
+    "picture": "https://github.com/yuniksung/project-sns/raw/main/client/public/project-sns1.jpg?raw=true"
   },
   {
     "id": 2,
