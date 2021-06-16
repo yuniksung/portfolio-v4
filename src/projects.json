@@ -20,8 +20,8 @@
   {
     "id": 3,
     "name": "Meal Queue",
-    "technologies": "Node.js, Express.js, Sequelize, Handlebars",
-    "description": "Type in a food item and a list of different recipes is presented with an option to view a video tutorial.",
+    "technologies": "HTML, SASS, JavaScript, Youtube-API, Edamam-API",
+    "description": "Meal Queue is an aide to help individuals come up with dinner ideas.",
     "repository":"https://github.com/axeliono/Meal-Queue",
     "link": "https://axeliono.github.io/Meal-Queue/",
     "picture": "https://github.com/yuniksung/portfolio-v4/blob/develop/public/images/mealq.jpg?raw=true"

@@ -12,6 +12,7 @@
     justify-content: space-between;
     align-items: center;
     margin: 2em auto;
+    
 
     @include media("<=desktop"){
         width: 80%;
