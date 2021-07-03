@@ -9,7 +9,7 @@
 
 .hero-container {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   padding-top: 80px;
   background: $light-background;
   @include flexCen;
