@@ -13,9 +13,8 @@ import Etcportfolio from './component/projects/etcportfolio'
 import Hero from './component/Hero/Hero'
 
 // Components
-import AppNav from "./component/App-component/AppNav";
-import AppStickyMenu from "./component/App-component/AppStickyMenu";
-import AppFooter from "./component/App-component/AppFooter";
+import AppNav from "./component/Nav/Nav";
+import AppFooter from "./component/Footer/Footer";
 
 
 import "./App.scss";
@@ -50,7 +49,6 @@ function App() {
         <Etcportfolio data-aos="fade-in"/>
 
         {/* Global components */}
-        <AppStickyMenu />
         <AppFooter />
         
     </Router>

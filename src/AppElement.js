@@ -5,7 +5,7 @@ export const AosH1 = styled.h1`
     margin:5em auto 2em;
     font-size: 3em;
     text-transform: uppercase;
-    color: $page-text;
+    color: #cfb776;
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
 `

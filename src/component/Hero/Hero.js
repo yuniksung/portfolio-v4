@@ -24,7 +24,7 @@ function Hero(){
         <HeroContainer>
             <HeroTitle>
                 <HeroTextP>
-                    Hello, my name is <HeroSpanText> Yunik Sung </HeroSpanText>I'm full-stack web developer
+                    Hello, my name is <HeroSpanText> Yunik Sung </HeroSpanText>I'm a full-stack web developer
                 </HeroTextP>
                 
             </HeroTitle>

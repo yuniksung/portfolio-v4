@@ -6,6 +6,15 @@ export const flexCen = () => {
     `
 }
 
+export const navFlex=()=>{
+    return `
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    `
+}
+
 export const listStyle = () => {
     return `
     list-style: none;
@@ -16,7 +25,7 @@ export const listStyle = () => {
 export const listStyle2 = () => {
     return `
     list-style: none;
-    padding: 5px 20px;
+    padding: 10px 4rem;
     `
 }
 
