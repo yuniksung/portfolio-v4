@@ -8,7 +8,7 @@ export const GlobalStyle = createGlobalStyle`
     scroll-behavior: smooth;
     background-color: #446461;
     font-family: 'Open Sans', sans-serif;
-    
+    overflow-x: hidden;
 `
 
 

@@ -25,7 +25,7 @@ export const listStyle = () => {
 export const listStyle2 = () => {
     return `
     list-style: none;
-    padding: 10px 4rem;
+    padding: 5px 4rem;
     `
 }
 

@@ -1,6 +1,4 @@
 // Variables and Mixins
-@import './assets/Styles/mixin-variables.scss';
-
 *{
     margin: 0;
     padding: 0;
@@ -9,25 +7,3 @@
     scroll-behavior: smooth;
     
 }
-
-body{
-    background-color: $default-background;
-}
-
-.h1{
-    width: 70%;
-    margin:5em auto 2em;
-    font-size: 3em;
-    text-transform: uppercase;
-    color: $page-text;
-    text-align: center;
-
-}
-
-
-
-
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400|Poppins:300,400,800&display=swap');
-
-
-

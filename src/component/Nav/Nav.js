@@ -1,6 +1,20 @@
 import React from "react";
-import { NavScroll, NavWrapper, NavUl, NavList, NavAnchor } from './NavbarElement'
+import styled from "styled-components";
+import { NavScroll, NavWrapper, NavUl, NavList } from './NavbarElement'
+import { Link } from "react-scroll";
 
+export const NavAnchor = styled(Link)`
+    color: #e8e8e8;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+    cursor: pointer;
+
+    &:hover{
+        color: #a88900;
+    }
+`
 
 
 const AppNav = () => {
@@ -18,7 +32,7 @@ const AppNav = () => {
                     </NavList>
                     <NavList>
                         <NavAnchor 
-                        className="icon" 
+                    
                         href={process.env.PUBLIC_URL+'/Yunik_Resume.pdf'}>
                             Resume
                         </NavAnchor>

@@ -1,15 +1,30 @@
 import React, { useEffect } from "react";
+import styled from "styled-components";
+import { Link } from "react-scroll";
 import {
     HeroContainer,
     HeroTitle,
     HeroTextP,
     HeroSpanText,
     HireMe,
-    HeroBtn,
 } from './HeroElement'
 import Aos from "aos";
 
 import "aos/dist/aos.css";
+
+
+export const HeroBtn = styled(Link)`
+    margin-right: 1em;
+    border: solid 1px #b90504;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #b90504;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+    cursor: pointer;
+`
 
 
 function Hero(){
@@ -29,14 +44,8 @@ function Hero(){
                 
             </HeroTitle>
             <HireMe>
-                <HeroBtn href="mailto:yuniksung@gmail.com" 
-                    rel="noreferrer">
-                    Hire Me
-                </HeroBtn>
-                <HeroBtn target="_blank" 
-                rel="noreferrer" 
-                href={process.env.PUBLIC_URL+'/Yunik_Resume.pdf'}>
-                    Download Resume
+                <HeroBtn to="projects">
+                    View my works
                 </HeroBtn>
             </HireMe> 
         </HeroContainer>
