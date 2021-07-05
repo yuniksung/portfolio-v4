@@ -20,7 +20,7 @@ export const HeroBtn = styled(Link)`
     padding: 10px 20px;
     text-decoration: none;
     color: #b90504;
-    font-size: 1.5em;
+    font-size: 1.2em;
     letter-spacing: 1px;
     transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
     cursor: pointer;

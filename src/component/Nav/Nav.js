@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 
 export const NavAnchor = styled(Link)`
     color: #e8e8e8;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 600;
     text-decoration: none;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;

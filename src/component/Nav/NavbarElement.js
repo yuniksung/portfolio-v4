@@ -1,29 +1,27 @@
 import styled from "styled-components";
-import { navFlex, listStyle2, OpenSans, flexCen } from '../../styleComponents/mixins';
+import { OpenSans, flexCen } from '../../styleComponents/mixins';
 
 export const NavScroll = styled.div`
     width: 100%;
-    display: flex;
+    height: 5vh;
     z-index: 999;
     position: fixed;
-    background-color: transparent;
-    height: 7vh;
     background: #333333;
-    border-bottom: 2px solid #b90504;
+    border-bottom: 3px solid #b90504;
+    ${flexCen};
     ${OpenSans};
 `
 
 export const NavWrapper = styled.div`
-    width: 100%;
+
 `
 
 export const NavUl = styled.ul`
-    width: 100%;
-    height: 100%;
-    ${navFlex};
+    ${flexCen};
 `
 
 export const NavList = styled.li`
-    ${listStyle2};
+    list-style: none;
+    padding: 0 15px;
     
 `
