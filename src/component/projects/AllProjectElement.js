@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { OpenSans, SourceSans, anchorStyle } from "../../styleComponents/mixins";
+import { OpenSans, SourceSans, anchorStyle, defaultShadow } from "../../styleComponents/mixins";
 
 export const ProjectContainer = styled.div`
 height: 100%;
@@ -19,12 +19,12 @@ export const ProjectTitle = styled.h1`
 `
 
 export const ProjectBox = styled.div`
-padding: 10px 20px;
 width: 90%;
 height: 550px;
 flex-direction: column;
 display: flex;
 margin: 1em 4em 2em;
+${defaultShadow};
 `
 
 export const ProjectPic = styled.div`

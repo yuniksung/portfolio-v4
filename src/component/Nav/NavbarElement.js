@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { OpenSans, flexCen } from '../../styleComponents/mixins';
+import { OpenSans, flexCen, smallShadow } from '../../styleComponents/mixins';
 
 export const NavScroll = styled.div`
     width: 100%;
@@ -10,10 +10,11 @@ export const NavScroll = styled.div`
     border-bottom: 3px solid #b90504;
     ${flexCen};
     ${OpenSans};
+    ${smallShadow};
 `
 
 export const NavWrapper = styled.div`
-
+    
 `
 
 export const NavUl = styled.ul`

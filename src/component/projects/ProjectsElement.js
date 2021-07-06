@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { flexCen, OpenSans } from "../../styleComponents/mixins";
+import { flexCen, OpenSans, smallShadow } from "../../styleComponents/mixins";
 
 
 export const ProjectContainer = styled.div`
@@ -22,6 +22,7 @@ export const ButtonsBox = styled.div`
     display: flex;
     justify-content: space-evenly;
     margin-top: 20px;
+
 `
 export const RenderPage = styled.div`
     width: 100%;
@@ -33,4 +34,5 @@ export const RenderBtn = styled.button`
     background-color: transparent;
     color: #990100;
     cursor: pointer;
+    ${smallShadow};
 `

@@ -3,6 +3,7 @@ import {
     flexCen,
     listStyle,
     OpenSans,
+    smallShadow,
     SourceSans
 } from '../../styleComponents/mixins'
 
@@ -46,7 +47,7 @@ export const WhatIcons = styled.div`
     padding: 1rem;
     ${flexCen};
     border-radius: 10px/30px;
-
+    ${smallShadow};
     &:hover{
         background-color: #b90504;
     }
@@ -55,6 +56,7 @@ export const WhatIcons = styled.div`
 export const WhatIcon = styled.i`
     font-size: 1rem;
     color: #fff;
+
 `
 
 export const WhatICanDo = styled.div`
@@ -80,23 +82,23 @@ export const AboutDescription = styled.div`
     // display: flex;
     ${flexCen}
     flex-direction: column;
-
+    
 `
 
 export const AboutMe = styled.div`
     width: 100%;
     ${flexCen}
     margin-bottom: 20px;
+    ${smallShadow};
+    border: 1px solid black;
+    background: #fff;
 `
 
 
 
 export const TextBox = styled.div`
-    width: 90%;
-    height: 100%;
-    // padding: 3px;
-    border: 1px solid black;
-    background: #fff;
+    width: 100%;
+    height: 100%;    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -104,12 +106,13 @@ export const TextBox = styled.div`
 `
 
 export const PictureBox = styled.div`
+    
     width: 100%;
     height: 250px;
     background: url("https://github.com/yuniksung/portfolio-v4/blob/main/src/assets/images/me.jpg?raw=true");
     background-position: center;
     background-size: cover;
-    ${flexCen};   
+    // ${flexCen};
 `
 
 export const Picture = styled.div`

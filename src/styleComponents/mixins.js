@@ -1,3 +1,14 @@
+export const defaultShadow = () => {
+    return `
+    box-shadow: 2px 4px 10px gray;
+    `
+}
+export const smallShadow = () => {
+    return `
+    box-shadow: 2px 4px 15px gray;
+    `
+}
+
 export const flexCen = () => {
     return `
     display: flex;
