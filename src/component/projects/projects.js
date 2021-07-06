@@ -1,5 +1,4 @@
-import React, { useEffect } from "react";
-import Aos from "aos";
+import React from "react";
 
 import "aos/dist/aos.css";
 import './projects.scss'
@@ -7,11 +6,6 @@ import ProjectData from '../../projects.json'
 
 function Projects() {
 
-    useEffect(() => {
-        Aos.init({
-            duration: 3000
-        });
-    }, []);
 
 
     return(
