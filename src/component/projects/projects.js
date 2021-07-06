@@ -1,62 +1,37 @@
-import React, { useEffect } from "react";
+import React, { useState } from "react";
 import Aos from "aos";
+// import "aos/dist/aos.css";
 
-import "aos/dist/aos.css";
-import './projects.scss'
-import ProjectData from '../../projects.json'
+import {
+    ProjectContainer,
+    ButtonsBox,
+    RenderPage,
+    RenderBtn
+} from './ProjectsElement'
+
+import FrontEnd from './FrontEnd';
+import BackEnd from './BackEnd';
+import FullStack from './FullStack';
 
 function Projects() {
-
-    useEffect(() => {
-        Aos.init({
-            duration: 3000
-        });
-    }, []);
-
+    const [isRendered, setIsRendered] = useState("")
 
     return(
+        <ProjectContainer>
+            <ButtonsBox>
+                <RenderBtn onClick={()=> setIsRendered("FrontEnd")}>Front End</RenderBtn>
+                <RenderBtn onClick={()=> setIsRendered("BackEnd")}>Back End</RenderBtn>
+                <RenderBtn onClick={()=> setIsRendered("FullStack")}>Full Stack</RenderBtn>
+            </ButtonsBox>
 
-        <div className="projects-container">
-            {ProjectData.map((data, index)=>{
 
-
-                return <div key={index}
-                data-aos="fade-up" 
-                className="project-box">
-                            
-                            <div className="project-pic">
-                                <img 
-                                src={data.picture}
-                                alt={data.name} />
-                            </div>
-                            <div className="project-text">
-                                <div className="p1">
-                                    <h1>{data.name}</h1>
-                                    <p>{data.description}</p>
-                                </div>
-                            
-                                <div className="p2">
-                                    <p>
-                                        {data.technologies}
-                                    </p>
-                                </div>
-                                <div className="p3" >
-                                    <a href={data.repository} 
-                                    target="_blank" 
-                                    rel="noreferrer">
-                                        <i className="fab fa-github"></i>
-                                    </a>
-                                    <a href={data.link} 
-                                    target="_blank" 
-                                    rel="noreferrer">
-                                        <i className="fas fa-external-link-alt"></i>
-                                    </a>
-                                </div>
-
-                            </div>
-                        </div>
-            })}
-        </div>
+            <RenderPage>
+                {isRendered === "FrontEnd" && <FrontEnd />}
+                {isRendered === "BackEnd" && <BackEnd />}
+                {isRendered === "FullStack" && <FullStack />}
+            </RenderPage>
+            
+        </ProjectContainer>
     )
 }
 

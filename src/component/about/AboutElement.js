@@ -52,7 +52,6 @@ export const WhatIcons = styled.div`
     }
 `
 
-
 export const WhatIcon = styled.i`
     font-size: 1rem;
     color: #fff;
@@ -64,22 +63,17 @@ export const WhatICanDo = styled.div`
     width: 80%;
 `
 
-
 export const Whath2 = styled.p`
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     text-align: center;
     padding: 5px;
 `
 
-
-
 export const WhatP = styled.p`
-    font-size: 14px;
+    font-size: 13px;
     text-align: center;
 `
-
-
 
 export const AboutDescription = styled.div`
     width: 100%;

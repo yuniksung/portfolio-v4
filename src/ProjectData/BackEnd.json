@@ -4,6 +4,7 @@
     "name": "Memories",
     "technologies": "React.js, Materialize, MongoDB, Mongoose, Express.js, Node.js",
     "description": "A Social media app that allows users to create, update, and delete posts.",
+    "position": "Full Stack",
     "repository":"https://github.com/yuniksung/project-sns",
     "link": "https://project-sns.netlify.app/",
     "picture": "https://github.com/yuniksung/project-sns/raw/main/client/public/project-sns1.jpg?raw=true"
@@ -13,6 +14,7 @@
     "name": "Music Line",
     "technologies": "Node.js, Express.js Sequelize, Handlebars",
     "description": "E-Commerce site allowing for purchase and rental of music products",
+    "position": "Front-End",
     "repository":"https://github.com/axeliono/Music-Line/",
     "link": "https://guarded-dawn-15470.herokuapp.com/",
     "picture": "https://github.com/yuniksung/portfolio-v4/blob/develop/public/images/musicline.jpg?raw=true"
@@ -22,6 +24,7 @@
     "name": "Meal Queue",
     "technologies": "HTML, SASS, JavaScript, Youtube-API, Edamam-API",
     "description": "Meal Queue is an aide to help individuals come up with dinner ideas.",
+    "position": "Front-End",
     "repository":"https://github.com/axeliono/Meal-Queue",
     "link": "https://axeliono.github.io/Meal-Queue/",
     "picture": "https://github.com/yuniksung/portfolio-v4/blob/develop/public/images/mealq.jpg?raw=true"
@@ -29,6 +32,7 @@
   {
     "id": 4,
     "name": "Portfolio V4",
+    "position": "Front-End",
     "technologies": "React.js, React Hooks, SASS",
     "description": "Latest portfolio created after bootcamp course",
     "repository":"https://github.com/yuniksung/portfolio-v4/tree/main",
