@@ -4,6 +4,7 @@ import Aos from "aos";
 
 import {
     ProjectContainer,
+    BtnInst,
     ButtonsBox,
     RenderPage,
     RenderBtn
@@ -14,10 +15,11 @@ import BackEnd from './BackEnd';
 import FullStack from './FullStack';
 
 function Projects() {
-    const [isRendered, setIsRendered] = useState("")
+    const [isRendered, setIsRendered] = useState("FrontEnd")
 
     return(
         <ProjectContainer>
+            <BtnInst>Click below to see more projects</BtnInst>
             <ButtonsBox>
                 <RenderBtn onClick={()=> setIsRendered("FrontEnd")}>Front End</RenderBtn>
                 <RenderBtn onClick={()=> setIsRendered("BackEnd")}>Back End</RenderBtn>

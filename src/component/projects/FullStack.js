@@ -20,7 +20,7 @@ import {
     ProjectTech,
     ProjectIcon,
     ProjectLink
-} from './FullStackElement'
+} from './AllProjectElement'
 
 function FullStack() {
 

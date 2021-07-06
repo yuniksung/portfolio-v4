@@ -20,7 +20,7 @@ ProjectTech,
 ProjectIcon,
 ProjectLink
 
-} from './FrontEndElement'
+} from './AllProjectElement'
 
 function FrontEnd() {
     return(

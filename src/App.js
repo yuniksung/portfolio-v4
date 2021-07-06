@@ -14,7 +14,7 @@ import Hero from './component/Hero/Hero'
 import About from './component/about/About'
 
 import AppNav from "./component/Nav/Nav";
-import AppFooter from "./component/Footer/Footer";
+import Footer from "./component/Footer/Footer";
 
 
 import "./App.scss";
@@ -32,24 +32,10 @@ function App() {
     <Router>
       <GlobalStyle />
         <AppNav />
-
-        {/* Sections */}
-
-        {/* This tag is a fake, it's standing here just for the scroll id of 'hero' */}
         <Hero id="hero"/>
-        <About />
-        {/* <AosH1  id="projects"> */}
-          {/* Projects */}
-        {/* </AosH1> */}
-        <Projects/>
-
-        {/* <AosH1 id="etcprojects"> */}
-          {/* Other Projects */}
-        {/* </AosH1> */}
-        {/* <Etcportfolio data-aos="fade-in"/> */}
-
-        {/* Global components */}
-        {/* <AppFooter /> */}
+        <About id="About" />
+        <Projects id="project" />
+        <Footer />
         
     </Router>
   );

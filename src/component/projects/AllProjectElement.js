@@ -12,8 +12,10 @@ margin: 2em auto;
 ${OpenSans};
 `
 
+
 export const ProjectTitle = styled.h1`
     ${SourceSans}
+    font-size: 20px;
 `
 
 export const ProjectBox = styled.div`
@@ -27,14 +29,14 @@ margin: 1em 4em 2em;
 
 export const ProjectPic = styled.div`
 width: 100%;
-height: 60%;
+height: 50%;
 border-top: 1px solid #333333;
 border-left: 1px solid #333333;
 border-right: 1px solid #333333;
 `
 export const ProjectText = styled.div`
 width: 100%;
-height: 40%;
+height: 50%;
 padding: 0 1em;
 display: flex;
 flex-direction: column;

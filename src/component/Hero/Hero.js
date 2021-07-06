@@ -7,11 +7,14 @@ import {
     HeroTextP,
     HeroSpanText,
     HireMe,
+    ContactBox,
+    ContactText,
+    ContactText1,
 } from './HeroElement'
 import Aos from "aos";
 
 import "aos/dist/aos.css";
-
+import HeroContact from "./HeroContact";
 
 export const HeroBtn = styled(Link)`
     margin-right: 1em;
@@ -48,6 +51,7 @@ function Hero(){
                     View my works
                 </HeroBtn>
             </HireMe> 
+            <HeroContact />
         </HeroContainer>
 
     )

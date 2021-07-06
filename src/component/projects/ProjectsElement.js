@@ -1,10 +1,19 @@
 import styled from "styled-components";
-import { flexCen } from "../../styleComponents/mixins";
+import { flexCen, OpenSans } from "../../styleComponents/mixins";
 
 
 export const ProjectContainer = styled.div`
     width: 100vw;
-    height: 100vh;
+    height: 100%;
+    ${flexCen}
+    flex-direction: column;
+    padding: 40px 10px;
+    ${OpenSans};
+`
+
+export const BtnInst = styled.h1`
+    text-align: center;
+    font-size: 18px;
 `
 
 export const ButtonsBox = styled.div`
@@ -12,7 +21,7 @@ export const ButtonsBox = styled.div`
     margin: auto;
     display: flex;
     justify-content: space-evenly;
-    margin-top: 40px;
+    margin-top: 20px;
 `
 export const RenderPage = styled.div`
     width: 100%;
