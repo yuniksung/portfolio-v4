@@ -16,15 +16,15 @@ export const HeroTitle = styled.div`
     margin: 2.5rem auto;
 `
 
-        export const HeroTextP = styled.p`
-            text-align: center;
-            font-size: 1.6em;
-            padding: 0 15px;
-            color: #333333;
-        `
-        export const HeroSpanText = styled.span`
-            color: #990100;
-            letter-spacing: 1px;
+export const HeroTextP = styled.p`
+    text-align: center;
+    font-size: 1.6em;
+    padding: 0 15px;
+    color: #333333;
+`
+export const HeroSpanText = styled.span`
+    color: #990100;
+    letter-spacing: 1px;
         `
 export const HireMe = styled.div `
     width: 100%;
@@ -36,7 +36,9 @@ export const ContactBox = styled.div`
     position: absolute;
     margin: auto;
     top: 70vh;
-`
+
+
+    `
 export const ContactText = styled.div`
     width: 90%;
     height: 80px;
@@ -47,6 +49,15 @@ export const ContactText = styled.div`
     align-items: space-around;
     justify-content: center;
     box-shadow: 4px 6px 10px gray;
+
+    
+    @media(min-width: 768px){
+        width: 60%;
+    }
+
+    @media(min-width: 1440px){
+        width: 50%;
+    }
     `
 export const ContactText1 = styled.div`
     ${flexCen}

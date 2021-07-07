@@ -22,6 +22,10 @@ export const AboutWrapper = styled.div`
     height: 100%;
     margin: auto;
     padding: 2rem 0 1rem ;
+
+    @media(min-width: 1440px){
+        width: 70%;
+    }
 `
 
 export const WhatBox = styled.div`
@@ -32,6 +36,11 @@ export const WhatBox = styled.div`
     justify-content: flex-start;
     flex-wrap: wrap;
     margin-bottom: 10px;
+
+    @media(min-width: 768px){
+        flex-wrap: no-wrap;
+        height: 350px;
+    }
 `
 
 export const CandoBox = styled.div`
@@ -82,7 +91,8 @@ export const AboutDescription = styled.div`
     // display: flex;
     ${flexCen}
     flex-direction: column;
-    
+
+
 `
 
 export const AboutMe = styled.div`
@@ -92,6 +102,7 @@ export const AboutMe = styled.div`
     ${smallShadow};
     border: 1px solid black;
     background: #fff;
+    
 `
 
 
@@ -103,6 +114,10 @@ export const TextBox = styled.div`
     flex-direction: column;
     justify-content: space-between;
     align-item: center;
+
+    @media(min-width: 768px){
+        flex-direction: row;
+    }
 `
 
 export const PictureBox = styled.div`
@@ -112,7 +127,11 @@ export const PictureBox = styled.div`
     background: url("https://github.com/yuniksung/portfolio-v4/blob/main/src/assets/images/me.jpg?raw=true");
     background-position: center;
     background-size: cover;
-    // ${flexCen};
+    @media(min-width: 768px){
+        ${flexCen};
+        width: 40%;
+        height: 250px;
+    }
 `
 
 export const Picture = styled.div`
@@ -126,9 +145,10 @@ width: 90%;
 height: 80%;
 letter-spacing: 1px;
 line-height: 140%;
-margin-right: 20px;
 text-align: left;
-margin: 10px 7px;
+margin: auto 7px;
+padding: 10px;
+font-size: 14px;
 `
 export const AboutSpan = styled.span`
     color: #b90504;
@@ -153,6 +173,8 @@ export const SkillUls = styled.ul`
     display: flex;
     justify-content: space-around;
     align-item: center;
+
+    
 `
 export const SkillUl = styled.ul`
 
@@ -161,18 +183,23 @@ export const SkillUl = styled.ul`
     flex-direction: column;
     justify-content: space-around;
     align-item: center;
+    @media(min-width: 768px){
+        width: 30%;
+    }
 `
 export const SkillLists = styled.li`
     ${listStyle};
     font-size: 1.2rem;
     ${SourceSans};
     padding: 10px 0;
+
 `
 export const SkillList = styled.ul`
    font-size: 0.8rem;
    ${OpenSans};
    text-transform: uppercase;
    padding: 5px 0;
-//    width: 100px;
+
+
 `
 
