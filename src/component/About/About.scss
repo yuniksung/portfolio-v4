@@ -1,0 +1,69 @@
+// Responsive
+@import '../../assets/Styles/mediaQueries.scss';
+
+// Variables and Mixins
+@import '../../assets/Styles/mixin-variables.scss';
+
+
+.container{
+    @include sectionBox;
+    @include flexCen;
+    flex-direction: column;
+    background-color: $mid-background;
+
+    .text{
+        width: 70%;
+        margin: auto;
+        text-align: center;
+        padding: 3em 0;
+
+        h1{
+            color: $tech-text;
+            font-size: 2.5rem;
+            padding-bottom: 20px;
+        }
+
+        p{
+            padding: 2rem;
+            border-top: 2px dashed #7f7e32;
+            border-bottom: 2px dashed #7f7e32;
+            font-size: 1.5em;
+            color: $tech-text;
+            letter-spacing: 1px; 
+
+            span{
+                color: $page-text;
+            }
+        }
+    }
+
+    .skillbox{
+        width: 50%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        
+        .skillsets{
+
+            ul{
+                color: $page-text;
+                font-size: 2.5rem;
+
+                li{
+                    font-size: 1.3rem;
+                    color: lightgray;
+                    list-style: none;
+                    letter-spacing: 2px;
+                    text-transform: lowercase;
+
+                    &::first-letter{
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+    }
+
+
+}

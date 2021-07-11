@@ -3,16 +3,15 @@ import React from "react";
 
 import "aos/dist/aos.css";
 
-// Pages
-import Projects from "./component/projects/projects"
-import Etcportfolio from './component/projects/etcportfolio'
+// // Pages
+// import Projects from "./component/projects/projects"
+// import Etcportfolio from './component/projects/etcportfolio'
 import Hero from './component/Hero/Hero'
-import Appeal from './component/Appeal/Appeal'
+import About from './component/About/About'
 
 // Components
-import AppNav from "./component/App-component/AppNav";
-import AppStickyMenu from "./component/App-component/AppStickyMenu";
-import AppFooter from "./component/App-component/AppFooter";
+import AppNav from "./component/Nav/AppNav";
+import AppFooter from "./component/Footer/AppFooter";
 
 
 import "./App.scss";
@@ -32,22 +31,19 @@ function App() {
         className="h2">
         </h2>
         <Hero id="hero" />
-        <Appeal />
+
+        <h2  id="About"
+        className="h2">
+        </h2>
+        <About id="About" />
         
         <h1  id="projects"
         className="h1">
           Projects
-        </h1>
-        <Projects/>
-
-        <h1 id="etcprojects"
-        className="h1">
-          Other Projects
-        </h1>
-        <Etcportfolio />
+        </h1> 
+        {/* <Projects/> */}
 
         {/* Global components */}
-        <AppStickyMenu />
         <AppFooter />
         
     </div>

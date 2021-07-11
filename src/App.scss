@@ -16,7 +16,9 @@ html {
 }
 
 body{
+    overflow-x: hidden;
     background-color: $default-background;
+    font-family: $default-font;
 }
 
 .h1{

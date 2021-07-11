@@ -25,7 +25,10 @@ const AppNav = () => {
 
                 <ul>
                     <li>
-                        <Link to="hero">About</Link>
+                        <Link to="hero">Home</Link>
+                    </li>
+                    <li>
+                        <Link to="About">About</Link>
                     </li>
                     <li>
                         <Link to="projects">Projects</Link>

@@ -21,6 +21,11 @@ $section-shadow: 0px 0px 50px rgba(0, 0, 0, 0.3);
 
 
 // default font style
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@200;400;600;800&display=swap');
+
+$default2: 'Encode Sans SC', sans-serif;
+
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
 $default-font: 'Open Sans Condensed', sans-serif;
