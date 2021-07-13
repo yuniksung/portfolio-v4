@@ -1,0 +1,72 @@
+// Responsive
+@import '../../../assets/Styles/mediaQueries.scss';
+
+// Variables and Mixins
+@import '../../../assets/Styles/mixin-variables.scss';
+
+.skillbox{
+    width: 100%;
+    margin: -10rem auto 0;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    // background: linear-gradient(#344d4a 15%, #fbfbfb 95%);
+
+    .skills{
+        width: 55%;
+        margin: auto;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+        flex-direction: column;
+        border-radius: 15px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.274);
+        background-color: $tech-text;
+
+        .box{
+            width: 80%;
+            height:100%;
+            display: flex;
+            padding: 20px;
+            
+            .header{
+                width: 20%;
+                border-right: 2px dashed black;
+
+                h3{
+                    font-size: 1.5rem;
+                    text-align: center;
+                    padding: 5px;
+                    
+                }
+            }
+
+            .body{
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+
+                .card{
+                    margin: 0 1rem;
+                    
+
+                    p{
+                        font-family: $default2;
+                        font-weight: 300px;
+                        font-size: 1.4rem;
+                        text-transform: lowercase;
+                        text-align: center;
+
+                        &::first-letter{
+                            text-transform: uppercase;
+                        }
+                    }
+
+                 
+                }
+            }
+
+        }
+    }
+
+}
