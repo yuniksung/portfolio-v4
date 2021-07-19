@@ -14,6 +14,11 @@ $boxShadow:5px 5px 10px rgba(51, 51, 51, 0.445);
     // When hovered
 $hoveredBoxShadow: 3px 3px 5px rgba(51, 51, 51, 0.445);
 
+// Inset box shadow
+$inset: inset 10px 10px 10px rgba(0, 0, 0, 0.05),       
+        15px 25px 10px rgba(0, 0, 0, 0.1), 
+        15px 20px 20px rgba(0, 0, 0, 0.05),
+        inset -25px -10px 15px rgba(255, 255, 255, 0.9);
 
 // Frequent use styles
 @mixin flexCen {
@@ -28,6 +33,27 @@ $hoveredBoxShadow: 3px 3px 5px rgba(51, 51, 51, 0.445);
     background-size: cover;
 }
 
+// Hover effects:
+    // --div hover effect swing
+    @mixin hoverEffect1{
+        transform: perspective(1500px) rotateY(15deg);
+        border-radius: 1rem;
+        box-shadow: rgba(0, 0, 0, 0) 0px 25px 50px -12px;
+        transition: transform 1s ease 0s;
+      
+        &:hover {
+          transform: perspective(3000px) rotateY(5deg);
+        }
+    }
+
+
+
+// Component title style (h1)
+@mixin componentTitle{
+    color: $color1;
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
+    font-size: 3rem;
+}
 
 // font-family: 'poppins', sans-serif;
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');

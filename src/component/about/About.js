@@ -1,30 +1,70 @@
 import React from 'react'
 import './About.scss';
 
-import meImg from '../../assets/images/me1.jpg'
-
 const About = () => {
     return (
         <div className="about-container">
+            <div className="talents">
+                <div class="card" styled="width: 270px;">
+                    <div class="offer">
+                        <div class="talent-icon">
+                            <i className="fas fa-fighter-jet"></i>
+                        </div>
+                        <h4>Fast Learner</h4>
+                        <p>Display an ability to learn rapidly and adapt quickly to changing situations
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="offer">
+                        <div class="talent-icon">
+                            <i className="fas fa-user-shield"></i>
+                        </div>
+                        <h4>Project Management</h4>
+                        <p>Effectively blend management skills with technical expertise
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="offer">
+                        <div class="talent-icon">
+                            <i className="fas fa-exclamation-circle"></i>
+                        </div>
+                        <h4>Problem Solver</h4>
+                        <p>                            Excels in creative thinking and problem solving
+
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="offer">
+                        <div class="talent-icon">
+                            <i className="fas fa-tasks"></i>
+                        </div>
+                        <h4>Motivation</h4>
+                        <p>Strive for maximum drive in fulfilling job
+                            responsibilities
+                        </p>
+                    </div>
+                </div>
+            </div>
             <div className="about-wrapper">
                 <div className="box my-words">
+                    <div className="about-me">
+                        <div className="about-text">
+                            <h1>About Me</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, quasi maxime aperiam, rem voluptate qui fugiat recusandae iste perferendis soluta tempora impedit delectus dolorum dolorem nesciunt, voluptatem minus asperiores quaerat.</p>
+                        </div>
+                        <div className="sns-link">
 
-                </div>
-                <div className="box my-pic">
-                    <div className="picture">
-                        <img src={meImg} alt="me" />
-                    </div>
-                    <div className="buttons">
-                        <a href="mailto:yuniksung@gmail.com" rel="noreferrer" class="icon">Contact Me</a>
-                    
-                        <a target="_blank" rel="noreferrer" href="/portfolio-v4/Yunik_Resume.pdf">Resume</a>
-                        
+                        </div>
                     </div>
                 </div>
-                <div className="box">
+                <div className="box skill-sets">
 
                 </div>
             </div>
+            
         </div>
     )
 }
