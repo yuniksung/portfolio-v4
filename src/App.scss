@@ -10,24 +10,15 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-style: 'Open Sans Condensed', sans-serif;
+    
     scroll-behavior: smooth;
     
 }
 
 body{
-    background-color: $default-background;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.h1{
-    width: 70%;
-    margin:5em auto 2em;
-    font-size: 3em;
-    text-transform: uppercase;
-    color: $page-text;
-    text-align: center;
-    font-family: $default-font;
-}
 
 
 
