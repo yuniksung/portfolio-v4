@@ -4,9 +4,10 @@ import './About.scss';
 const About = () => {
     return (
         <div className="about-container">
-            <div className="talents">
-                <div class="card" styled="width: 270px;">
-                    <div class="offer">
+            <div className="about-wrapper">
+
+                <div className="talents">
+                    <div class="card">
                         <div class="talent-icon">
                             <i className="fas fa-fighter-jet"></i>
                         </div>
@@ -14,9 +15,7 @@ const About = () => {
                         <p>Display an ability to learn rapidly and adapt quickly to changing situations
                         </p>
                     </div>
-                </div>
-                <div class="card">
-                    <div class="offer">
+                    <div class="card">
                         <div class="talent-icon">
                             <i className="fas fa-user-shield"></i>
                         </div>
@@ -24,9 +23,7 @@ const About = () => {
                         <p>Effectively blend management skills with technical expertise
                         </p>
                     </div>
-                </div>
-                <div class="card">
-                    <div class="offer">
+                    <div class="card">
                         <div class="talent-icon">
                             <i className="fas fa-exclamation-circle"></i>
                         </div>
@@ -35,9 +32,7 @@ const About = () => {
 
                         </p>
                     </div>
-                </div>
-                <div class="card">
-                    <div class="offer">
+                    <div class="card">
                         <div class="talent-icon">
                             <i className="fas fa-tasks"></i>
                         </div>
@@ -47,24 +42,24 @@ const About = () => {
                         </p>
                     </div>
                 </div>
-            </div>
-            <div className="about-wrapper">
-                <div className="box my-words">
-                    <div className="about-me">
-                        <div className="about-text">
-                            <h1>About Me</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, quasi maxime aperiam, rem voluptate qui fugiat recusandae iste perferendis soluta tempora impedit delectus dolorum dolorem nesciunt, voluptatem minus asperiores quaerat.</p>
-                        </div>
-                        <div className="sns-link">
 
+                <div className="about-box">
+                    <div className="box my-words">
+                        <div className="about-me">
+                            <div className="about-text">
+                                <h1>About Me</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, quasi maxime aperiam, rem voluptate qui fugiat recusandae iste perferendis soluta tempora impedit delectus dolorum dolorem nesciunt, voluptatem minus asperiores quaerat.</p>
+                            </div>
+                            <div className="sns-link">
+
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div className="box skill-sets">
+                    <div className="box skill-sets">
 
-                </div>
+                    </div>
+                </div>   
             </div>
-            
         </div>
     )
 }
