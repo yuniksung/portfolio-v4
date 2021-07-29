@@ -22,23 +22,21 @@ const About = () => {
                         <h4>Project Management</h4>
                         <p>Effectively blend management skills with technical expertise
                         </p>
+                        
                     </div>
                     <div class="card">
                         <div class="talent-icon">
                             <i className="fas fa-exclamation-circle"></i>
                         </div>
                         <h4>Problem Solver</h4>
-                        <p>                            Excels in creative thinking and problem solving
-
-                        </p>
+                        <p>Excels in creative thinking and problem solving</p>
                     </div>
                     <div class="card">
                         <div class="talent-icon">
                             <i className="fas fa-tasks"></i>
                         </div>
                         <h4>Motivation</h4>
-                        <p>Strive for maximum drive in fulfilling job
-                            responsibilities
+                        <p>Strive for maximum drive in fulfilling job responsibilities
                         </p>
                     </div>
                 </div>

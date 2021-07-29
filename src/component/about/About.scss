@@ -18,7 +18,7 @@
             .card{
                 width: 270px;
                 height: 270px;
-                margin: 0 10px 10px;
+                margin: 0 20px 10px;
                 background-color: #fff;
                 border: 1px solid lightgray;
                 text-align: center;
@@ -26,6 +26,13 @@
                 @include flexCen;
                 flex-direction: column;
                 margin-bottom: 50px;
+                box-shadow: $boxShadow;
+                transition: $boxHoverEffect;
+
+                &:hover{
+                    
+                    box-shadow: $hoveredBoxShadow
+                }
 
 
                 .talent-icon{
