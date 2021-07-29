@@ -4,8 +4,8 @@ import React from "react";
 import "aos/dist/aos.css";
 
 // Pages
-import Projects from "./component/projects/projects"
-import Etcportfolio from './component/projects/etcportfolio'
+import Projects from "./component/Projects/projects"
+import Etcportfolio from './component/Projects/etcportfolio'
 import Hero from './component/Hero/Hero'
 import Appeal from './component/Appeal/Appeal'
 

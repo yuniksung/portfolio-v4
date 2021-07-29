@@ -5,9 +5,6 @@ import './projects.scss'
 import ProjectData from '../../projects.json'
 
 function Projects() {
-
-
-
     return(
 
         <div className="projects-container">
